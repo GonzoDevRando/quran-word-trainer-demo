@@ -1,0 +1,15 @@
+{
+  "name": "Quran Word Trainer",
+  "short_name": "Quran Words",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff9e8",
+  "theme_color": "#f4d35e",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

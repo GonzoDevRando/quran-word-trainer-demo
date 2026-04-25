@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="108" fill="#fff9e8"/>
+  <circle cx="386" cy="126" r="108" fill="#f4d35e"/>
+  <path d="M74 360c72-124 178-196 318-216-88 80-150 178-188 294-42-12-86-38-130-78Z" fill="#23664f"/>
+  <text x="256" y="274" text-anchor="middle" font-size="156" font-family="Geeza Pro, serif" fill="#17211a">قُل</text>
+</svg>
