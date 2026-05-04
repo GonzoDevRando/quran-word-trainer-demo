@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for فق؛قف</title>
+  <desc id="desc">A silent visual metaphor: dim sensing shifts into perception, touch, face, and embodied awareness.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#35243a"/>
+      <stop offset="48%" stop-color="#805d75"/>
+      <stop offset="100%" stop-color="#d3a77d"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="50%" cy="22%" r="46%">
+      <stop offset="0%" stop-color="#ffd7ad" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#ffd7ad" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#ffd7ad" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="895" cy="269" r="40" fill="#ffbd93" opacity="0.08"/>
+  <circle cx="1343" cy="771" r="23" fill="#fff8df" opacity="0.11"/>
+  <circle cx="331" cy="423" r="40" fill="#ffbd93" opacity="0.13"/>
+  <circle cx="779" cy="75" r="23" fill="#fff8df" opacity="0.16"/>
+  <circle cx="1227" cy="577" r="40" fill="#ffbd93" opacity="0.08"/>
+  <circle cx="215" cy="229" r="23" fill="#fff8df" opacity="0.11"/>
+  <circle cx="663" cy="731" r="40" fill="#ffbd93" opacity="0.13"/>
+  <circle cx="1111" cy="383" r="23" fill="#fff8df" opacity="0.16"/>
+  <circle cx="99" cy="885" r="40" fill="#ffbd93" opacity="0.08"/>
+  <circle cx="547" cy="537" r="23" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-body-eye">
+      <path d="M210 506 C440 246 1160 246 1390 506 C1160 778 440 778 210 506Z" fill="#fff8df" opacity=".82" class="ink"/>
+      <circle cx="800" cy="506" r="178" fill="#315f63" class="ink"/>
+      <circle cx="800" cy="506" r="74" fill="#16120d"/>
+      <circle cx="760" cy="460" r="28" fill="#ffd7ad"/>
+      <path d="M800 194 L800 130" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(0 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(20 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(40 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(60 800 506)"/>
+      <path d="M800 194 L800 130" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(80 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(100 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(120 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(140 800 506)"/>
+      <path d="M800 194 L800 130" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(160 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(180 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(200 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(220 800 506)"/>
+      <path d="M800 194 L800 130" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(240 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(260 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(280 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(300 800 506)"/>
+      <path d="M800 194 L800 130" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(320 800 506)"/>
+      <path d="M800 194 L800 150" stroke="#ffbd93" stroke-width="12" stroke-linecap="round" transform="rotate(340 800 506)"/>
+    </g>
+  </g>
+</svg>

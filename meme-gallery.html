@@ -1,0 +1,820 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>بطاقات الصور الدلالية</title>
+  <style>
+    :root {
+      --ink: #17211a;
+      --muted: #6d685c;
+      --paper: #fff8df;
+      --leaf: #23664f;
+      --gold: #f4d35e;
+      --clay: #b85539;
+      --line: rgba(23, 33, 26, .13);
+      --shadow: 0 24px 80px rgba(38, 42, 30, .18);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100svh;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 5% 8%, rgba(244, 211, 94, .58), transparent 27rem),
+        radial-gradient(circle at 82% 0%, rgba(35, 102, 79, .22), transparent 24rem),
+        linear-gradient(145deg, #fff8df, #efe1bf 54%, #dbe8d3);
+      font-family: "Geeza Pro", "Noto Naskh Arabic", "Scheherazade New", "Avenir Next", serif;
+    }
+    a { color: inherit; }
+    .shell { width: min(1320px, 100%); margin: 0 auto; padding: 24px 16px 60px; }
+    .hero {
+      display: grid;
+      gap: 14px;
+      align-items: end;
+      grid-template-columns: minmax(0, 1fr) auto;
+      margin-bottom: 24px;
+    }
+    .eyebrow {
+      color: var(--leaf);
+      font-family: "Avenir Next", sans-serif;
+      font-size: .74rem;
+      font-weight: 950;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 8px 0 10px;
+      font-size: clamp(2.4rem, 8vw, 6.8rem);
+      line-height: .86;
+      letter-spacing: -.055em;
+    }
+    .subline { margin: 0; color: var(--muted); max-width: 68rem; line-height: 1.65; font-size: 1.02rem; }
+    .back {
+      border: 1px solid rgba(35, 102, 79, .22);
+      border-radius: 999px;
+      background: rgba(35, 102, 79, .1);
+      color: var(--leaf);
+      display: inline-flex;
+      font-family: "Avenir Next", sans-serif;
+      font-weight: 950;
+      padding: 10px 14px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 9px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: rgba(255, 255, 255, .66);
+      box-shadow: var(--shadow);
+    }
+    .imageLink { display: block; background: #201408; }
+    img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; }
+    .meta { display: grid; gap: 8px; padding: 15px 16px 17px; }
+    .pair { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+    .rank {
+      direction: ltr;
+      color: var(--clay);
+      font-family: "Avenir Next", sans-serif;
+      font-size: .8rem;
+      font-weight: 950;
+    }
+    .entonym { font-size: 1.9rem; font-weight: 900; line-height: 1; }
+    .gesture { color: var(--ink); line-height: 1.48; font-weight: 850; }
+    .field { color: var(--muted); line-height: 1.46; font-size: .92rem; }
+    .pill {
+      justify-self: start;
+      border-radius: 999px;
+      background: rgba(244, 211, 94, .3);
+      color: #665011;
+      font-family: "Avenir Next", sans-serif;
+      font-size: .72rem;
+      font-weight: 950;
+      padding: 6px 9px;
+      direction: ltr;
+    }
+    @media (max-width: 720px) {
+      .hero { grid-template-columns: 1fr; }
+      .shell { padding-inline: 12px; }
+      .grid { grid-template-columns: 1fr; gap: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">Arabic-first visual memory deck</div>
+        <h1>بطاقات الصور الدلالية</h1>
+        <p class="subline">كل بطاقة صورة صامتة لزوج صوتي مدعوم في القائمة الحالية. الصورة نفسها لا تحمل كلمات؛ المعنى يتدرّب بصرياً، والتسمية العربية هنا فقط للتصفح والمراجعة.</p>
+      </div>
+      <div class="actions">
+        <a class="back" href="entonym-learning.html">Open memory lab</a>
+        <a class="back" href="index.html">Back to trainer</a>
+      </div>
+    </header>
+    <section class="grid" aria-label="Visual entonym meme cards">
+      <article class="card">
+        <a class="imageLink" href="memes/meme-001-b-r.html"><img src="memes/meme-001-b-r.svg" alt="بر؛رب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#1</span><strong class="entonym">بر؛رب</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-002-m-r.html"><img src="memes/meme-002-m-r.svg" alt="رم؛مر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#2</span><strong class="entonym">رم؛مر</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-003-l-m.html"><img src="memes/meme-003-l-m.svg" alt="لم؛مل"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#3</span><strong class="entonym">لم؛مل</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-004-f-r.html"><img src="memes/meme-004-f-r.svg" alt="رف؛فر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#4</span><strong class="entonym">رف؛فر</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-005-e-r.html"><img src="memes/meme-005-e-r.svg" alt="رع؛عر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#5</span><strong class="entonym">رع؛عر</strong></div>
+          <div class="gesture">حركة، مسار، رجوع، اتباع</div>
+          <div class="field">الحركة والمسار</div>
+          <div class="pill">C04_MOVEMENT_PATH</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-006-b-l.html"><img src="memes/meme-006-b-l.svg" alt="بل؛لب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#6</span><strong class="entonym">بل؛لب</strong></div>
+          <div class="gesture">موضع، ارض، ماء، عبور</div>
+          <div class="field">المكان والارض والماء</div>
+          <div class="pill">C01_PLACE_EARTH_WATER</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-007-d-r.html"><img src="memes/meme-007-d-r.svg" alt="در؛رد"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#7</span><strong class="entonym">در؛رد</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-008-e-l.html"><img src="memes/meme-008-e-l.svg" alt="عل؛لع"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#8</span><strong class="entonym">عل؛لع</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-009-q-r.html"><img src="memes/meme-009-q-r.svg" alt="رق؛قر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#9</span><strong class="entonym">رق؛قر</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني، علامة لفظية</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-010-a-r.html"><img src="memes/meme-010-a-r.svg" alt="ار؛را"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#10</span><strong class="entonym">ار؛را</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-011-j-r.html"><img src="memes/meme-011-j-r.svg" alt="جر؛رج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#11</span><strong class="entonym">جر؛رج</strong></div>
+          <div class="gesture">موضع، ارض، ماء، عبور، علامة لفظية</div>
+          <div class="field">المكان والارض والماء</div>
+          <div class="pill">C01_PLACE_EARTH_WATER</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-012-m-s.html"><img src="memes/meme-012-m-s.svg" alt="سم؛مس"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#12</span><strong class="entonym">سم؛مس</strong></div>
+          <div class="gesture">موضع، ارض، ماء، عبور</div>
+          <div class="field">المكان والارض والماء</div>
+          <div class="pill">C01_PLACE_EARTH_WATER</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-013-l-q.html"><img src="memes/meme-013-l-q.svg" alt="قل؛لق"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#13</span><strong class="entonym">قل؛لق</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-014-n-r.html"><img src="memes/meme-014-n-r.svg" alt="رن؛نر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#14</span><strong class="entonym">رن؛نر</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-015-r-s.html"><img src="memes/meme-015-r-s.svg" alt="رس؛سر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#15</span><strong class="entonym">رس؛سر</strong></div>
+          <div class="gesture">اثر، ضرب، قطع، فصل بالقوة</div>
+          <div class="field">القوة والقطع والضرب</div>
+          <div class="pill">C05_FORCE_CUT_BREAK</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-016-h-l.html"><img src="memes/meme-016-h-l.svg" alt="حل؛لح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#16</span><strong class="entonym">حل؛لح</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-017-h-r.html"><img src="memes/meme-017-h-r.svg" alt="ره؛هر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#17</span><strong class="entonym">ره؛هر</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-018-h-r.html"><img src="memes/meme-018-h-r.svg" alt="حر؛رح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#18</span><strong class="entonym">حر؛رح</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-019-r-sh.html"><img src="memes/meme-019-r-sh.svg" alt="رش؛شر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#19</span><strong class="entonym">رش؛شر</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-020-e-q.html"><img src="memes/meme-020-e-q.svg" alt="عق؛قع"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#20</span><strong class="entonym">عق؛قع</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي، علامة لفظية</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-021-m-q.html"><img src="memes/meme-021-m-q.svg" alt="قم؛مق"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#21</span><strong class="entonym">قم؛مق</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-022-j-l.html"><img src="memes/meme-022-j-l.svg" alt="جل؛لج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#22</span><strong class="entonym">جل؛لج</strong></div>
+          <div class="gesture">موضع، ارض، ماء، عبور</div>
+          <div class="field">المكان والارض والماء</div>
+          <div class="pill">C01_PLACE_EARTH_WATER</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-023-k-r.html"><img src="memes/meme-023-k-r.svg" alt="رك؛كر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#23</span><strong class="entonym">رك؛كر</strong></div>
+          <div class="gesture">انسان، علاقة، خدمة، دور اجتماعي/ديني</div>
+          <div class="field">الانسان والاجتماع والدين</div>
+          <div class="pill">C09_HUMAN_SOCIAL_SACRED</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-024-l-s.html"><img src="memes/meme-024-l-s.svg" alt="سل؛لس"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#24</span><strong class="entonym">سل؛لس</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-025-b-q.html"><img src="memes/meme-025-b-q.svg" alt="بق؛قب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#25</span><strong class="entonym">بق؛قب</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-026-b-s.html"><img src="memes/meme-026-b-s.svg" alt="بس؛سب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#26</span><strong class="entonym">بس؛سب</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-027-h-l.html"><img src="memes/meme-027-h-l.svg" alt="له؛هل"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#27</span><strong class="entonym">له؛هل</strong></div>
+          <div class="gesture">انسان، علاقة، خدمة، دور اجتماعي/ديني</div>
+          <div class="field">الانسان والاجتماع والدين</div>
+          <div class="pill">C09_HUMAN_SOCIAL_SACRED</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-028-s-r.html"><img src="memes/meme-028-s-r.svg" alt="رص؛صر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#28</span><strong class="entonym">رص؛صر</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-029-d-l.html"><img src="memes/meme-029-d-l.svg" alt="دل؛لد"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#29</span><strong class="entonym">دل؛لد</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-030-r-y.html"><img src="memes/meme-030-r-y.svg" alt="ري؛ير"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#30</span><strong class="entonym">ري؛ير</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-031-gh-r.html"><img src="memes/meme-031-gh-r.svg" alt="رغ؛غر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#31</span><strong class="entonym">رغ؛غر</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-032-d-r.html"><img src="memes/meme-032-d-r.svg" alt="رض؛ضر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#32</span><strong class="entonym">رض؛ضر</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-033-r-th.html"><img src="memes/meme-033-r-th.svg" alt="ثر؛رث"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#33</span><strong class="entonym">ثر؛رث</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-034-h-s.html"><img src="memes/meme-034-h-s.svg" alt="حس؛سح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#34</span><strong class="entonym">حس؛سح</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-035-b-th.html"><img src="memes/meme-035-b-th.svg" alt="بث؛ثب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#35</span><strong class="entonym">بث؛ثب</strong></div>
+          <div class="gesture">موضع، ارض، ماء، عبور</div>
+          <div class="field">المكان والارض والماء</div>
+          <div class="pill">C01_PLACE_EARTH_WATER</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-036-l-r.html"><img src="memes/meme-036-l-r.svg" alt="رل؛لر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#36</span><strong class="entonym">رل؛لر</strong></div>
+          <div class="gesture">حياة حيوانية، ركوب، حمل، معاش</div>
+          <div class="field">الحيوان والركوب</div>
+          <div class="pill">C02_ANIMAL_RIDING</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-037-f-n.html"><img src="memes/meme-037-f-n.svg" alt="فن؛نف"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#37</span><strong class="entonym">فن؛نف</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-038-e-n.html"><img src="memes/meme-038-e-n.svg" alt="عن؛نع"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#38</span><strong class="entonym">عن؛نع</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-039-e-m.html"><img src="memes/meme-039-e-m.svg" alt="عم؛مع"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#39</span><strong class="entonym">عم؛مع</strong></div>
+          <div class="gesture">حركة، مسار، رجوع، اتباع</div>
+          <div class="field">الحركة والمسار</div>
+          <div class="pill">C04_MOVEMENT_PATH</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-040-d-m.html"><img src="memes/meme-040-d-m.svg" alt="دم؛مد"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#40</span><strong class="entonym">دم؛مد</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-041-j-n.html"><img src="memes/meme-041-j-n.svg" alt="جن؛نج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#41</span><strong class="entonym">جن؛نج</strong></div>
+          <div class="gesture">انسان، علاقة، خدمة، دور اجتماعي/ديني</div>
+          <div class="field">الانسان والاجتماع والدين</div>
+          <div class="pill">C09_HUMAN_SOCIAL_SACRED</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-042-e-b.html"><img src="memes/meme-042-e-b.svg" alt="بع؛عب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#42</span><strong class="entonym">بع؛عب</strong></div>
+          <div class="gesture">انسان، علاقة، خدمة، دور اجتماعي/ديني</div>
+          <div class="field">الانسان والاجتماع والدين</div>
+          <div class="pill">C09_HUMAN_SOCIAL_SACRED</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-043-h-m.html"><img src="memes/meme-043-h-m.svg" alt="حم؛مح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#43</span><strong class="entonym">حم؛مح</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني، علامة لفظية</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-044-n-s.html"><img src="memes/meme-044-n-s.svg" alt="سن؛نس"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#44</span><strong class="entonym">سن؛نس</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-045-h-m.html"><img src="memes/meme-045-h-m.svg" alt="مه؛هم"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#45</span><strong class="entonym">مه؛هم</strong></div>
+          <div class="gesture">صوت، نطق، تسمية، علامة</div>
+          <div class="field">الصوت والكلام والاسم</div>
+          <div class="pill">C06_SOUND_SPEECH_NAME</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-046-j-m.html"><img src="memes/meme-046-j-m.svg" alt="جم؛مج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#46</span><strong class="entonym">جم؛مج</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-047-r-w.html"><img src="memes/meme-047-r-w.svg" alt="رو؛ور"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#47</span><strong class="entonym">رو؛ور</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-048-e-d.html"><img src="memes/meme-048-e-d.svg" alt="دع؛عد"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#48</span><strong class="entonym">دع؛عد</strong></div>
+          <div class="gesture">اثر، ضرب، قطع، فصل بالقوة</div>
+          <div class="field">القوة والقطع والضرب</div>
+          <div class="pill">C05_FORCE_CUT_BREAK</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-049-r-z.html"><img src="memes/meme-049-r-z.svg" alt="رز؛زر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#49</span><strong class="entonym">رز؛زر</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-050-f-q.html"><img src="memes/meme-050-f-q.svg" alt="فق؛قف"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#50</span><strong class="entonym">فق؛قف</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-051-kh-r.html"><img src="memes/meme-051-kh-r.svg" alt="خر؛رخ"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#51</span><strong class="entonym">خر؛رخ</strong></div>
+          <div class="gesture">صوت، نطق، تسمية، علامة</div>
+          <div class="field">الصوت والكلام والاسم</div>
+          <div class="pill">C06_SOUND_SPEECH_NAME</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-052-d-s.html"><img src="memes/meme-052-d-s.svg" alt="دس؛سد"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#52</span><strong class="entonym">دس؛سد</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-053-e-s.html"><img src="memes/meme-053-e-s.svg" alt="سع؛عس"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#53</span><strong class="entonym">سع؛عس</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-054-h-b.html"><img src="memes/meme-054-h-b.svg" alt="بح؛حب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#54</span><strong class="entonym">بح؛حب</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-055-e-j.html"><img src="memes/meme-055-e-j.svg" alt="جع؛عج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#55</span><strong class="entonym">جع؛عج</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-056-s-m.html"><img src="memes/meme-056-s-m.svg" alt="صم؛مص"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#56</span><strong class="entonym">صم؛مص</strong></div>
+          <div class="gesture">اثر، ضرب، قطع، فصل بالقوة</div>
+          <div class="field">القوة والقطع والضرب</div>
+          <div class="pill">C05_FORCE_CUT_BREAK</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-057-h-d.html"><img src="memes/meme-057-h-d.svg" alt="حد؛دح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#57</span><strong class="entonym">حد؛دح</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-058-d-j.html"><img src="memes/meme-058-d-j.svg" alt="جد؛دج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#58</span><strong class="entonym">جد؛دج</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-059-e-s.html"><img src="memes/meme-059-e-s.svg" alt="صع؛عص"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#59</span><strong class="entonym">صع؛عص</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-060-h-j.html"><img src="memes/meme-060-h-j.svg" alt="جح؛حج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#60</span><strong class="entonym">جح؛حج</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-061-h-j.html"><img src="memes/meme-061-h-j.svg" alt="جه؛هج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#61</span><strong class="entonym">جه؛هج</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني، علامة لفظية</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-062-e-y.html"><img src="memes/meme-062-e-y.svg" alt="عي؛يع"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#62</span><strong class="entonym">عي؛يع</strong></div>
+          <div class="gesture">حياة حيوانية، ركوب، حمل، معاش</div>
+          <div class="field">الحيوان والركوب</div>
+          <div class="pill">C02_ANIMAL_RIDING</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-063-h-s.html"><img src="memes/meme-063-h-s.svg" alt="حص؛صح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#63</span><strong class="entonym">حص؛صح</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-064-d-b.html"><img src="memes/meme-064-d-b.svg" alt="بض؛ضب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#64</span><strong class="entonym">بض؛ضب</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-065-t-q.html"><img src="memes/meme-065-t-q.svg" alt="طق؛قط"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#65</span><strong class="entonym">طق؛قط</strong></div>
+          <div class="gesture">اثر، ضرب، قطع، فصل بالقوة</div>
+          <div class="field">القوة والقطع والضرب</div>
+          <div class="pill">C05_FORCE_CUT_BREAK</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-066-s-d.html"><img src="memes/meme-066-s-d.svg" alt="دص؛صد"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#66</span><strong class="entonym">دص؛صد</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-067-d-h.html"><img src="memes/meme-067-d-h.svg" alt="حض؛ضح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#67</span><strong class="entonym">حض؛ضح</strong></div>
+          <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
+          <div class="field">الزمن والنور واللون</div>
+          <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-068-q-q.html"><img src="memes/meme-068-q-q.svg" alt="قق"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#68</span><strong class="entonym">قق</strong></div>
+          <div class="gesture">صوت، نطق، تسمية، علامة</div>
+          <div class="field">الصوت والكلام والاسم</div>
+          <div class="pill">C06_SOUND_SPEECH_NAME</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-069-j-j.html"><img src="memes/meme-069-j-j.svg" alt="جج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#69</span><strong class="entonym">جج</strong></div>
+          <div class="gesture">موضع، ارض، ماء، عبور، علامة لفظية</div>
+          <div class="field">المكان والارض والماء</div>
+          <div class="pill">C01_PLACE_EARTH_WATER</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-070-gh-y.html"><img src="memes/meme-070-gh-y.svg" alt="غي؛يغ"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#70</span><strong class="entonym">غي؛يغ</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-071-d-kh.html"><img src="memes/meme-071-d-kh.svg" alt="خض؛ضخ"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#71</span><strong class="entonym">خض؛ضخ</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة، علامة لفظية</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-072-f-f.html"><img src="memes/meme-072-f-f.svg" alt="فف"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#72</span><strong class="entonym">فف</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-073-e-e.html"><img src="memes/meme-073-e-e.svg" alt="عع"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#73</span><strong class="entonym">عع</strong></div>
+          <div class="gesture">صوت، نطق، تسمية، علامة</div>
+          <div class="field">الصوت والكلام والاسم</div>
+          <div class="pill">C06_SOUND_SPEECH_NAME</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-074-z-f.html"><img src="memes/meme-074-z-f.svg" alt="ظف؛فظ"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#74</span><strong class="entonym">ظف؛فظ</strong></div>
+          <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
+          <div class="field">البدن والحس</div>
+          <div class="pill">C03_BODY_PERCEPTION</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-075-d-d.html"><img src="memes/meme-075-d-d.svg" alt="ضض"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#75</span><strong class="entonym">ضض</strong></div>
+          <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
+          <div class="field">النبات والطعام والمادة</div>
+          <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-076-gh-q.html"><img src="memes/meme-076-gh-q.svg" alt="غق؛قغ"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#76</span><strong class="entonym">غق؛قغ</strong></div>
+          <div class="gesture">صوت، نطق، تسمية، علامة</div>
+          <div class="field">الصوت والكلام والاسم</div>
+          <div class="pill">C06_SOUND_SPEECH_NAME</div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="imageLink" href="memes/meme-077-s-sh.html"><img src="memes/meme-077-s-sh.svg" alt="شس"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#77</span><strong class="entonym">شس</strong></div>
+          <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
+          <div class="field">القدر والقيمة والحال</div>
+          <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

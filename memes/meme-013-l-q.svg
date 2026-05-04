@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for قل؛لق</title>
+  <desc id="desc">A silent visual metaphor: barren desert shifts into lush abundance and provision.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#263d25"/>
+      <stop offset="48%" stop-color="#7f9f4d"/>
+      <stop offset="100%" stop-color="#e9bb70"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="62%" cy="54%" r="46%">
+      <stop offset="0%" stop-color="#fff1a8" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#fff1a8" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#fff1a8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="1201" cy="541" r="40" fill="#efc45b" opacity="0.08"/>
+  <circle cx="291" cy="295" r="23" fill="#fff8df" opacity="0.11"/>
+  <circle cx="841" cy="899" r="40" fill="#efc45b" opacity="0.13"/>
+  <circle cx="1391" cy="653" r="23" fill="#fff8df" opacity="0.16"/>
+  <circle cx="481" cy="407" r="40" fill="#efc45b" opacity="0.08"/>
+  <circle cx="1031" cy="161" r="23" fill="#fff8df" opacity="0.11"/>
+  <circle cx="121" cy="765" r="40" fill="#efc45b" opacity="0.13"/>
+  <circle cx="671" cy="519" r="23" fill="#fff8df" opacity="0.16"/>
+  <circle cx="1221" cy="273" r="40" fill="#efc45b" opacity="0.08"/>
+  <circle cx="311" cy="877" r="23" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-growth-roots">
+      <path d="M806 846 C780 700 788 566 812 430" fill="none" stroke="#16120d" stroke-width="22" stroke-linecap="round"/>
+      <path d="M812 430 C688 376 604 282 560 164 C712 176 810 270 812 430Z" fill="#efc45b" class="ink"/>
+      <path d="M820 430 C952 356 1070 270 1190 160 C1208 332 1054 438 820 430Z" fill="#fff8df" class="ink"/>
+      <path d="M790 846 C664 754 538 796 408 892 M820 846 C958 744 1082 792 1200 884 M798 740 C684 676 584 690 476 760 M818 716 C952 664 1060 680 1168 754" fill="none" stroke="#fff8df" stroke-width="15" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

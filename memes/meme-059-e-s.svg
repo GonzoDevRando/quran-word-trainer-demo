@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for صع؛عص</title>
+  <desc id="desc">A silent visual metaphor: dim sensing shifts into perception, touch, face, and embodied awareness.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2d2f3d"/>
+      <stop offset="48%" stop-color="#b17b68"/>
+      <stop offset="100%" stop-color="#f3d4a7"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="44%" cy="46%" r="46%">
+      <stop offset="0%" stop-color="#ffe6bb" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#ffe6bb" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#ffe6bb" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="422" cy="578" r="31" fill="#f7b59a" opacity="0.08"/>
+  <circle cx="1199" cy="799" r="14" fill="#fff8df" opacity="0.11"/>
+  <circle cx="516" cy="170" r="31" fill="#f7b59a" opacity="0.13"/>
+  <circle cx="1293" cy="391" r="14" fill="#fff8df" opacity="0.16"/>
+  <circle cx="610" cy="612" r="31" fill="#f7b59a" opacity="0.08"/>
+  <circle cx="1387" cy="833" r="14" fill="#fff8df" opacity="0.11"/>
+  <circle cx="704" cy="204" r="31" fill="#f7b59a" opacity="0.13"/>
+  <circle cx="1481" cy="425" r="14" fill="#fff8df" opacity="0.16"/>
+  <circle cx="798" cy="646" r="31" fill="#f7b59a" opacity="0.08"/>
+  <circle cx="115" cy="867" r="14" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-body-pulse">
+      <path d="M238 548 L486 548 L566 394 L676 720 L780 290 L904 548 L1360 548" fill="none" stroke="#fff8df" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M630 786 C408 592 452 350 642 326 C736 314 784 370 804 426 C826 366 886 314 982 328 C1172 354 1206 596 982 786 C906 854 730 852 630 786Z" fill="#f7b59a" opacity=".72" class="ink"/>
+      <circle cx="804" cy="548" r="270" fill="none" stroke="#ffe6bb" stroke-width="14" opacity=".42"/>
+    </g>
+  </g>
+</svg>

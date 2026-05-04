@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for جن؛نج</title>
+  <desc id="desc">A silent visual metaphor: isolation shifts into gathering, relation, covenant, and sacred orientation.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b2b3d"/>
+      <stop offset="48%" stop-color="#78606a"/>
+      <stop offset="100%" stop-color="#e6bd78"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="61%" cy="33%" r="46%">
+      <stop offset="0%" stop-color="#fff0b0" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#fff0b0" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#fff0b0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="928" cy="390" r="17" fill="#ffdd85" opacity="0.08"/>
+  <circle cx="1387" cy="903" r="34" fill="#fff8df" opacity="0.11"/>
+  <circle cx="386" cy="566" r="17" fill="#ffdd85" opacity="0.13"/>
+  <circle cx="845" cy="229" r="34" fill="#fff8df" opacity="0.16"/>
+  <circle cx="1304" cy="742" r="17" fill="#ffdd85" opacity="0.08"/>
+  <circle cx="303" cy="405" r="34" fill="#fff8df" opacity="0.11"/>
+  <circle cx="762" cy="68" r="17" fill="#ffdd85" opacity="0.13"/>
+  <circle cx="1221" cy="581" r="34" fill="#fff8df" opacity="0.16"/>
+  <circle cx="220" cy="244" r="17" fill="#ffdd85" opacity="0.08"/>
+  <circle cx="679" cy="757" r="34" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-social-canopy">
+      <path d="M318 448 C470 224 1128 224 1284 448 C1040 372 570 372 318 448Z" fill="#fff8df" class="ink"/>
+      <path d="M800 442 L800 804" stroke="#16120d" stroke-width="22" stroke-linecap="round"/>
+      <circle cx="420" cy="780" r="44" fill="#ffdd85" class="thin"/><circle cx="506" cy="744" r="44" fill="#ffdd85" class="thin"/><circle cx="592" cy="780" r="44" fill="#ffdd85" class="thin"/>
+      <circle cx="740" cy="760" r="44" fill="#fff0b0" class="thin"/><circle cx="826" cy="724" r="44" fill="#fff0b0" class="thin"/><circle cx="912" cy="760" r="44" fill="#fff0b0" class="thin"/>
+      <circle cx="1060" cy="780" r="44" fill="#ffdd85" class="thin"/><circle cx="1146" cy="744" r="44" fill="#ffdd85" class="thin"/><circle cx="1232" cy="780" r="44" fill="#ffdd85" class="thin"/>
+    </g>
+  </g>
+</svg>

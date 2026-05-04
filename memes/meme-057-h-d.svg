@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for حد؛دح</title>
+  <desc id="desc">A silent visual metaphor: emptiness shifts into measure, balance, value, and change of state.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b332d"/>
+      <stop offset="48%" stop-color="#7a7654"/>
+      <stop offset="100%" stop-color="#e4bd61"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="58%" cy="35%" r="46%">
+      <stop offset="0%" stop-color="#fff1a4" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#fff1a4" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#fff1a4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="84" cy="442" r="31" fill="#ffd058" opacity="0.08"/>
+  <circle cx="1235" cy="187" r="14" fill="#fff8df" opacity="0.11"/>
+  <circle cx="926" cy="782" r="31" fill="#ffd058" opacity="0.13"/>
+  <circle cx="617" cy="527" r="14" fill="#fff8df" opacity="0.16"/>
+  <circle cx="308" cy="272" r="31" fill="#ffd058" opacity="0.08"/>
+  <circle cx="1459" cy="867" r="14" fill="#fff8df" opacity="0.11"/>
+  <circle cx="1150" cy="612" r="31" fill="#ffd058" opacity="0.13"/>
+  <circle cx="841" cy="357" r="14" fill="#fff8df" opacity="0.16"/>
+  <circle cx="532" cy="102" r="31" fill="#ffd058" opacity="0.08"/>
+  <circle cx="223" cy="697" r="14" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-value-scales">
+      <path d="M800 238 L800 784" stroke="#16120d" stroke-width="24" stroke-linecap="round"/>
+      <path d="M496 382 L1104 382" stroke="#16120d" stroke-width="18" stroke-linecap="round"/>
+      <path d="M544 382 L424 646 L672 646Z" fill="#ffd058" class="ink"/>
+      <path d="M1056 382 L936 646 L1184 646Z" fill="#fff8df" class="ink"/>
+      <ellipse cx="800" cy="806" rx="250" ry="58" fill="#4d5d45" class="ink"/>
+      <ellipse cx="274" cy="772" rx="88" ry="28" fill="#fff1a4" class="thin"/>
+      <ellipse cx="274" cy="748" rx="88" ry="28" fill="#fff1a4" class="thin"/>
+      <ellipse cx="274" cy="724" rx="88" ry="28" fill="#fff1a4" class="thin"/>
+      <ellipse cx="274" cy="700" rx="88" ry="28" fill="#fff1a4" class="thin"/>
+      <ellipse cx="274" cy="676" rx="88" ry="28" fill="#fff1a4" class="thin"/>
+      <ellipse cx="1222" cy="790" rx="88" ry="28" fill="#ffd058" class="thin"/>
+      <ellipse cx="1222" cy="766" rx="88" ry="28" fill="#ffd058" class="thin"/>
+      <ellipse cx="1222" cy="742" rx="88" ry="28" fill="#ffd058" class="thin"/>
+      <ellipse cx="1222" cy="718" rx="88" ry="28" fill="#ffd058" class="thin"/>
+      <ellipse cx="1222" cy="694" rx="88" ry="28" fill="#ffd058" class="thin"/>
+      <ellipse cx="1222" cy="670" rx="88" ry="28" fill="#ffd058" class="thin"/>
+      <ellipse cx="1222" cy="646" rx="88" ry="28" fill="#ffd058" class="thin"/>
+    </g>
+  </g>
+</svg>

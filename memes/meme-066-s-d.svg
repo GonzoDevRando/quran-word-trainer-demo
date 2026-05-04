@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for دص؛صد</title>
+  <desc id="desc">A silent visual metaphor: dusk and heat shift into cycle, dawn, illumination, and color.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#30233d"/>
+      <stop offset="48%" stop-color="#bd5f4e"/>
+      <stop offset="100%" stop-color="#f5c46b"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="65%" cy="47%" r="46%">
+      <stop offset="0%" stop-color="#fff2a5" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#fff2a5" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#fff2a5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="645" cy="799" r="14" fill="#84e5ff" opacity="0.08"/>
+  <circle cx="523" cy="731" r="31" fill="#fff8df" opacity="0.11"/>
+  <circle cx="401" cy="663" r="14" fill="#84e5ff" opacity="0.13"/>
+  <circle cx="279" cy="595" r="31" fill="#fff8df" opacity="0.16"/>
+  <circle cx="157" cy="527" r="14" fill="#84e5ff" opacity="0.08"/>
+  <circle cx="1495" cy="459" r="31" fill="#fff8df" opacity="0.11"/>
+  <circle cx="1373" cy="391" r="14" fill="#84e5ff" opacity="0.13"/>
+  <circle cx="1251" cy="323" r="31" fill="#fff8df" opacity="0.16"/>
+  <circle cx="1129" cy="255" r="14" fill="#84e5ff" opacity="0.08"/>
+  <circle cx="1007" cy="187" r="31" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-time-prism">
+      <path d="M610 295 L1018 492 L610 706Z" fill="#fff8df" opacity=".78" class="ink"/>
+      <path d="M220 502 L610 502" stroke="#fff2a5" stroke-width="34" stroke-linecap="round"/>
+      <path d="M1018 492 L1414 296" stroke="#ff6b5f" stroke-width="24" stroke-linecap="round"/>
+      <path d="M1018 492 L1460 492" stroke="#ffe56e" stroke-width="24" stroke-linecap="round"/>
+      <path d="M1018 492 L1414 690" stroke="#68e5ff" stroke-width="24" stroke-linecap="round"/>
+      <circle cx="1215" cy="155" r="10" fill="#fff8df" opacity=".72"/>
+      <circle cx="1371" cy="477" r="17" fill="#fff8df" opacity=".72"/>
+      <circle cx="147" cy="799" r="9" fill="#fff8df" opacity=".72"/>
+      <circle cx="303" cy="341" r="16" fill="#fff8df" opacity=".72"/>
+      <circle cx="459" cy="663" r="8" fill="#fff8df" opacity=".72"/>
+      <circle cx="615" cy="205" r="15" fill="#fff8df" opacity=".72"/>
+      <circle cx="771" cy="527" r="7" fill="#fff8df" opacity=".72"/>
+      <circle cx="927" cy="849" r="14" fill="#fff8df" opacity=".72"/>
+      <circle cx="1083" cy="391" r="6" fill="#fff8df" opacity=".72"/>
+      <circle cx="1239" cy="713" r="13" fill="#fff8df" opacity=".72"/>
+      <circle cx="1395" cy="255" r="5" fill="#fff8df" opacity=".72"/>
+      <circle cx="171" cy="577" r="12" fill="#fff8df" opacity=".72"/>
+    </g>
+  </g>
+</svg>

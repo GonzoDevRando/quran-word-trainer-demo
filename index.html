@@ -49,6 +49,20 @@
     .eyebrow { color: var(--leaf); font-weight: 900; letter-spacing: 0.11em; text-transform: uppercase; font-size: 0.72rem; }
     h1 { margin: 6px 0 8px; font-size: clamp(2rem, 10vw, 4.6rem); line-height: 0.9; letter-spacing: -0.07em; }
     .subline { margin: 0; color: var(--muted); max-width: 58rem; line-height: 1.55; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 13px; }
+    .hero-link {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid rgba(35, 102, 79, 0.22);
+      border-radius: 999px;
+      background: rgba(35, 102, 79, 0.09);
+      color: var(--leaf);
+      font-size: 0.86rem;
+      font-weight: 900;
+      padding: 8px 12px;
+      text-decoration: none;
+    }
+    .hero-link:focus-visible { outline: 3px solid rgba(35, 102, 79, 0.28); outline-offset: 3px; }
     .stats, .chips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
     .stats { margin-top: 14px; }
     .translation-choice {
@@ -233,6 +247,10 @@
       <div class="eyebrow">Arabic-first mobile deck</div>
       <h1>Quran Word Trainer</h1>
       <p class="subline" id="scopeNote"></p>
+      <div class="hero-actions">
+        <a class="hero-link" href="entonym-learning.html">Open the entonym memory lab</a>
+        <a class="hero-link" href="meme-gallery.html">Browse the visual entonym meme deck</a>
+      </div>
       <div class="stats" id="stats"></div>
       <label class="translation-choice" id="translationChoice">
         <span>Translation layer</span>

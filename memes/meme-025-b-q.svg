@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for بق؛قب</title>
+  <desc id="desc">A silent visual metaphor: emptiness shifts into measure, balance, value, and change of state.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#352820"/>
+      <stop offset="48%" stop-color="#8e6947"/>
+      <stop offset="100%" stop-color="#e6c16d"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="72%" cy="24%" r="46%">
+      <stop offset="0%" stop-color="#fff2b0" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#fff2b0" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#fff2b0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="691" cy="371" r="40" fill="#ffd75b" opacity="0.08"/>
+  <circle cx="1071" cy="805" r="23" fill="#fff8df" opacity="0.11"/>
+  <circle cx="1451" cy="389" r="40" fill="#ffd75b" opacity="0.13"/>
+  <circle cx="371" cy="823" r="23" fill="#fff8df" opacity="0.16"/>
+  <circle cx="751" cy="407" r="40" fill="#ffd75b" opacity="0.08"/>
+  <circle cx="1131" cy="841" r="23" fill="#fff8df" opacity="0.11"/>
+  <circle cx="1511" cy="425" r="40" fill="#ffd75b" opacity="0.13"/>
+  <circle cx="431" cy="859" r="23" fill="#fff8df" opacity="0.16"/>
+  <circle cx="811" cy="443" r="40" fill="#ffd75b" opacity="0.08"/>
+  <circle cx="1191" cy="877" r="23" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-value-abacus">
+      <rect x="312" y="238" width="976" height="554" rx="42" fill="#fff8df" opacity=".34" class="ink"/>
+      <path d="M372 360 L1168 360" stroke="#16120d" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="408" cy="360" r="44" fill="#ffd75b" class="thin"/>
+      <circle cx="520" cy="360" r="44" fill="#ffd75b" class="thin"/>
+      <circle cx="632" cy="360" r="44" fill="#ffd75b" class="thin"/>
+      <circle cx="744" cy="360" r="44" fill="#ffd75b" class="thin"/>
+      <circle cx="856" cy="360" r="44" fill="#ffd75b" class="thin"/>
+      <circle cx="968" cy="360" r="44" fill="#ffd75b" class="thin"/>
+      <circle cx="1080" cy="360" r="44" fill="#ffd75b" class="thin"/>
+      <path d="M372 500 L1168 500" stroke="#16120d" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="408" cy="500" r="44" fill="#fff2b0" class="thin"/>
+      <circle cx="520" cy="500" r="44" fill="#fff2b0" class="thin"/>
+      <circle cx="632" cy="500" r="44" fill="#fff2b0" class="thin"/>
+      <circle cx="744" cy="500" r="44" fill="#fff2b0" class="thin"/>
+      <circle cx="856" cy="500" r="44" fill="#fff2b0" class="thin"/>
+      <path d="M372 640 L1168 640" stroke="#16120d" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="408" cy="640" r="44" fill="#63442b" class="thin"/>
+      <circle cx="520" cy="640" r="44" fill="#63442b" class="thin"/>
+      <circle cx="632" cy="640" r="44" fill="#63442b" class="thin"/>
+      <circle cx="744" cy="640" r="44" fill="#63442b" class="thin"/>
+      <circle cx="856" cy="640" r="44" fill="#63442b" class="thin"/>
+      <circle cx="968" cy="640" r="44" fill="#63442b" class="thin"/>
+      <circle cx="1080" cy="640" r="44" fill="#63442b" class="thin"/>
+      <circle cx="1192" cy="640" r="44" fill="#63442b" class="thin"/>
+    </g>
+  </g>
+</svg>

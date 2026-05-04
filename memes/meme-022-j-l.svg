@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for جل؛لج</title>
+  <desc id="desc">A silent visual metaphor: dry ground shifts into flowing water, oasis, and inhabitable place.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163c4b"/>
+      <stop offset="48%" stop-color="#4aa3a4"/>
+      <stop offset="100%" stop-color="#e4c37a"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="68%" cy="30%" r="46%">
+      <stop offset="0%" stop-color="#c8fbff" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#c8fbff" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#c8fbff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="814" cy="822" r="13" fill="#f5de8a" opacity="0.08"/>
+  <circle cx="1235" cy="447" r="30" fill="#fff8df" opacity="0.11"/>
+  <circle cx="196" cy="72" r="13" fill="#f5de8a" opacity="0.13"/>
+  <circle cx="617" cy="547" r="30" fill="#fff8df" opacity="0.16"/>
+  <circle cx="1038" cy="172" r="13" fill="#f5de8a" opacity="0.08"/>
+  <circle cx="1459" cy="647" r="30" fill="#fff8df" opacity="0.11"/>
+  <circle cx="420" cy="272" r="13" fill="#f5de8a" opacity="0.13"/>
+  <circle cx="841" cy="747" r="30" fill="#fff8df" opacity="0.16"/>
+  <circle cx="1262" cy="372" r="13" fill="#f5de8a" opacity="0.08"/>
+  <circle cx="223" cy="847" r="30" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-place-river-map">
+      <path d="M180 760 C418 652 430 476 636 438 C850 400 916 252 1220 222 C1350 210 1450 168 1520 112" fill="none" stroke="#fff8df" stroke-width="46" stroke-linecap="round"/>
+      <path d="M180 760 C418 652 430 476 636 438 C850 400 916 252 1220 222 C1350 210 1450 168 1520 112" fill="none" stroke="#c8fbff" stroke-width="18" stroke-linecap="round"/>
+      
+      <path d="M196 258 C366 144 598 164 748 292 C890 414 1130 386 1348 250" fill="none" stroke="#f5de8a" stroke-width="10" stroke-linecap="round" opacity=".66"/>
+      <path d="M224 366 C420 252 578 280 736 392 C912 516 1096 504 1376 356" fill="none" stroke="#f5de8a" stroke-width="10" stroke-linecap="round" opacity=".52"/>
+      <path d="M244 478 C444 384 620 426 790 520 C1014 644 1188 620 1412 486" fill="none" stroke="#f5de8a" stroke-width="10" stroke-linecap="round" opacity=".42"/>
+    
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for دل؛لد</title>
+  <desc id="desc">A silent visual metaphor: dusk and heat shift into cycle, dawn, illumination, and color.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#251f4a"/>
+      <stop offset="48%" stop-color="#884b62"/>
+      <stop offset="100%" stop-color="#f3a653"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="56%" cy="33%" r="46%">
+      <stop offset="0%" stop-color="#fff29b" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#fff29b" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#fff29b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="508" cy="550" r="13" fill="#ffdc62" opacity="0.08"/>
+  <circle cx="827" cy="73" r="30" fill="#fff8df" opacity="0.11"/>
+  <circle cx="1146" cy="446" r="13" fill="#ffdc62" opacity="0.13"/>
+  <circle cx="1465" cy="819" r="30" fill="#fff8df" opacity="0.16"/>
+  <circle cx="324" cy="342" r="13" fill="#ffdc62" opacity="0.08"/>
+  <circle cx="643" cy="715" r="30" fill="#fff8df" opacity="0.11"/>
+  <circle cx="962" cy="238" r="13" fill="#ffdc62" opacity="0.13"/>
+  <circle cx="1281" cy="611" r="30" fill="#fff8df" opacity="0.16"/>
+  <circle cx="140" cy="134" r="13" fill="#ffdc62" opacity="0.08"/>
+  <circle cx="459" cy="507" r="30" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-time-orbits">
+      <circle cx="820" cy="490" r="250" fill="#fff29b" opacity=".36"/>
+      <circle cx="820" cy="490" r="118" fill="#ffdc62" class="ink"/>
+      <circle cx="884" cy="446" r="104" fill="#251f4a" opacity=".92"/>
+      <ellipse cx="820" cy="490" rx="430" ry="170" fill="none" stroke="#fff8df" stroke-width="14" opacity=".7"/>
+      <ellipse cx="820" cy="490" rx="520" ry="225" fill="none" stroke="#ffdc62" stroke-width="8" opacity=".5" transform="rotate(-18 820 490)"/>
+      <circle cx="660" cy="428" r="16" fill="#fff8df" opacity=".72"/>
+      <circle cx="1257" cy="411" r="8" fill="#fff8df" opacity=".72"/>
+      <circle cx="474" cy="394" r="15" fill="#fff8df" opacity=".72"/>
+      <circle cx="1071" cy="377" r="7" fill="#fff8df" opacity=".72"/>
+      <circle cx="288" cy="360" r="14" fill="#fff8df" opacity=".72"/>
+      <circle cx="885" cy="343" r="6" fill="#fff8df" opacity=".72"/>
+      <circle cx="1482" cy="326" r="13" fill="#fff8df" opacity=".72"/>
+      <circle cx="699" cy="309" r="5" fill="#fff8df" opacity=".72"/>
+      <circle cx="1296" cy="292" r="12" fill="#fff8df" opacity=".72"/>
+      <circle cx="513" cy="275" r="19" fill="#fff8df" opacity=".72"/>
+      <circle cx="1110" cy="258" r="11" fill="#fff8df" opacity=".72"/>
+      <circle cx="327" cy="241" r="18" fill="#fff8df" opacity=".72"/>
+      <circle cx="924" cy="224" r="10" fill="#fff8df" opacity=".72"/>
+      <circle cx="141" cy="207" r="17" fill="#fff8df" opacity=".72"/>
+      <circle cx="738" cy="190" r="9" fill="#fff8df" opacity=".72"/>
+      <circle cx="1335" cy="173" r="16" fill="#fff8df" opacity=".72"/>
+      <circle cx="552" cy="156" r="8" fill="#fff8df" opacity=".72"/>
+      <circle cx="1149" cy="139" r="15" fill="#fff8df" opacity=".72"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Visual entonym memory image for غق؛قغ</title>
+  <desc id="desc">A silent visual metaphor: mute stillness shifts into expanding waves, call, and named resonance.</desc>
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#162f44"/>
+      <stop offset="48%" stop-color="#3c6d8d"/>
+      <stop offset="100%" stop-color="#b6e2e8"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="70%" cy="37%" r="46%">
+      <stop offset="0%" stop-color="#dfffff" stop-opacity=".88"/>
+      <stop offset="62%" stop-color="#dfffff" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#dfffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#140d08" flood-opacity=".32"/>
+    </filter>
+    <filter id="hardInk" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="6" dy="8" stdDeviation="0" flood-color="#12100c" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .ink { stroke: #16120d; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #16120d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#posterBg)"/>
+  <rect width="1600" height="1000" fill="url(#warmGlow)"/>
+  <circle cx="1190" cy="664" r="11" fill="#9ee6ff" opacity="0.08"/>
+  <circle cx="763" cy="661" r="28" fill="#fff8df" opacity="0.11"/>
+  <circle cx="336" cy="658" r="11" fill="#9ee6ff" opacity="0.13"/>
+  <circle cx="1369" cy="655" r="28" fill="#fff8df" opacity="0.16"/>
+  <circle cx="942" cy="652" r="11" fill="#9ee6ff" opacity="0.08"/>
+  <circle cx="515" cy="649" r="28" fill="#fff8df" opacity="0.11"/>
+  <circle cx="88" cy="646" r="11" fill="#9ee6ff" opacity="0.13"/>
+  <circle cx="1121" cy="643" r="28" fill="#fff8df" opacity="0.16"/>
+  <circle cx="694" cy="640" r="11" fill="#9ee6ff" opacity="0.08"/>
+  <circle cx="267" cy="637" r="28" fill="#fff8df" opacity="0.11"/>
+  <g filter="url(#posterShadow)">
+    
+    <g id="poster-sound-ripples">
+      <ellipse cx="800" cy="720" rx="500" ry="92" fill="none" stroke="#fff8df" stroke-width="20" opacity=".72"/>
+      <ellipse cx="800" cy="720" rx="330" ry="58" fill="none" stroke="#dfffff" stroke-width="18"/>
+      <ellipse cx="800" cy="720" rx="170" ry="32" fill="#9ee6ff" class="ink"/>
+      <circle cx="800" cy="330" r="82" fill="#fff8df" class="ink"/>
+      <path d="M800 414 L800 658" stroke="#dfffff" stroke-width="18" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

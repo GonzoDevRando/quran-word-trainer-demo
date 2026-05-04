@@ -8,6 +8,9 @@ Static mobile Quran word trainer generated from the current repeated-verse and s
 - Word tokens: 6001
 - Normalized word forms: 2095
 - Repeated word forms: 694
+- Entonym memory lab: [`entonym-learning.html`](entonym-learning.html)
+- Visual entonym meme deck: [`meme-gallery.html`](meme-gallery.html)
+- Visual entonym meme cards: 77
 
 ## GitHub Pages
 
