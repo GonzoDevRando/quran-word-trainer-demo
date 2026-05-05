@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
   <title id="title">Visual entonym memory image for ضض</title>
-  <desc id="desc">A silent visual metaphor: barren desert shifts into lush abundance and provision.</desc>
+  <desc id="desc">A silent pair-specific visual memory image. Neighborhood: النبات والطعام والمادة. The icon clusters are generated from layered Arabic semantic terms and roots: ماء؛ ارض؛ قضة؛ حصي؛ لبن؛ نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة؛ فضة؛ لحم؛ بضض؛ خضض؛ رضض؛ غضض؛ فضض؛ قضض.</desc>
   <defs>
     <linearGradient id="posterBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1f4634"/>
@@ -76,5 +76,135 @@
       <path d="M1190 66 L1190 2" stroke="#fff3ad" stroke-width="12" stroke-linecap="round" transform="rotate(309 1190 252)"/>
       <path d="M1190 66 L1190 22" stroke="#fff3ad" stroke-width="12" stroke-linecap="round" transform="rotate(334 1190 252)"/>
     </g>
+  </g>
+  <g id="semantic-layer-icons" filter="url(#posterShadow)">
+    
+    <g transform="rotate(5.0 312.0 252.0)" opacity=".92">
+      <path d="M194.0 252.0 C157.0 197.0 276.0 161.0 349.0 173.0 C467.0 198.0 431.0 306.0 348.0 343.0 C275.0 351.0 167.0 307.0 194.0 252.0Z" fill="#f2b84d" opacity=".28" stroke="#fff3ad" stroke-width="6"/>
+      
+      <g opacity=".86">
+        <path d="M209.8 193.6 C188.4 222.2 192.0 242.6 209.8 246.7 C229.2 241.6 229.2 222.2 209.8 193.6Z" fill="#23664f" class="thin"/>
+        <path d="M176.7 252.8 C195.5 243.1 223.1 262.0 244.5 249.7" fill="none" stroke="#fff3ad" stroke-width="6.6" stroke-linecap="round"/>
+      </g>
+      <g opacity=".86">
+        <path d="M295.9 187.1 C276.2 213.4 279.4 232.2 295.9 236.0 C313.8 231.3 313.8 213.4 295.9 187.1Z" fill="#fff3ad" class="thin"/>
+        <path d="M265.3 241.6 C282.7 232.7 308.1 250.1 327.9 238.8" fill="none" stroke="#fff3ad" stroke-width="6.1" stroke-linecap="round"/>
+      </g>
+      <g opacity=".78">
+        <polygon points="448.7,242.5 410.9,289.8 364.9,251.1 367.4,191.5 426.6,195.8" fill="#f2b84d" class="thin"/>
+        <circle cx="405.0" cy="233.2" r="10.1" fill="#fff3ad"/>
+      </g>
+      <g opacity=".78">
+        <polygon points="233.9,305.9 217.1,325.3 194.9,312.4 175.6,295.9 188.5,274.0 204.7,255.0 226.2,267.7 245.1,283.6" fill="#f2b84d" class="thin"/>
+        <circle cx="210.8" cy="289.7" r="6.6" fill="#fff3ad"/>
+      </g>
+      <g transform="rotate(-8 308.9 282.7)" opacity=".86">
+        <path d="M308.9 314.6 C303.4 289.3 312.2 272.8 308.9 251.9" fill="none" stroke="#16120d" stroke-width="8.2" stroke-linecap="round"/>
+        <path d="M308.9 276.1 C269.3 267.3 271.5 239.8 308.9 245.3 C302.3 258.5 307.8 267.3 308.9 276.1Z" fill="#23664f" class="thin"/>
+        <path d="M312.2 281.6 C347.4 275.0 350.7 248.6 315.5 248.6 C321.0 261.8 315.5 272.8 312.2 281.6Z" fill="#fff8df" class="thin"/>
+      </g>
+    </g>
+
+    <g transform="rotate(5.0 1218.0 276.0)" opacity=".92">
+      <path d="M1116.0 276.0 C1061.0 206.0 1194.0 182.0 1273.0 194.0 C1375.0 237.0 1351.0 315.0 1242.0 370.0 C1163.0 378.0 1071.0 346.0 1116.0 276.0Z" fill="#fff8df" opacity=".28" stroke="#23664f" stroke-width="6"/>
+      
+      <g opacity=".86">
+        <ellipse cx="1110.6" cy="264.8" rx="27.4" ry="8.8" fill="#23664f" class="thin"/>
+        <ellipse cx="1110.6" cy="254.0" rx="27.4" ry="8.8" fill="#fff8df" class="thin"/>
+        <ellipse cx="1110.6" cy="243.2" rx="27.4" ry="8.8" fill="#23664f" class="thin"/>
+        <path d="M1142.0 219.7 L1142.0 271.6 M1124.4 234.4 L1159.6 234.4" stroke="#16120d" stroke-width="5.0" stroke-linecap="round"/>
+      </g>
+      <g transform="rotate(-6 1204.9 238.2)" opacity=".86">
+        <path d="M1204.9 269.5 C1199.5 244.6 1208.1 228.4 1204.9 207.9" fill="none" stroke="#16120d" stroke-width="8.1" stroke-linecap="round"/>
+        <path d="M1204.9 231.7 C1166.0 223.0 1168.1 196.0 1204.9 201.4 C1198.4 214.4 1203.8 223.0 1204.9 231.7Z" fill="#fff8df" class="thin"/>
+        <path d="M1208.1 237.1 C1242.7 230.6 1245.9 204.7 1211.3 204.7 C1216.7 217.6 1211.3 228.4 1208.1 237.1Z" fill="#fff8df" class="thin"/>
+      </g>
+      <g transform="rotate(11 1329.2 229.2)" opacity=".86">
+        <path d="M1329.2 259.3 C1324.0 235.4 1332.3 219.8 1329.2 200.0" fill="none" stroke="#16120d" stroke-width="7.8" stroke-linecap="round"/>
+        <path d="M1329.2 222.9 C1291.8 214.6 1293.8 188.6 1329.2 193.8 C1323.0 206.3 1328.2 214.6 1329.2 222.9Z" fill="#fff3ad" class="thin"/>
+        <path d="M1332.3 228.1 C1365.6 221.9 1368.7 196.9 1335.4 196.9 C1340.6 209.4 1335.4 219.8 1332.3 228.1Z" fill="#fff8df" class="thin"/>
+      </g>
+      <g opacity=".86">
+        <path d="M1115.5 272.3 C1089.9 306.5 1094.2 330.9 1115.5 335.7 C1138.7 329.6 1138.7 306.5 1115.5 272.3Z" fill="#fff3ad" class="thin"/>
+        <path d="M1075.9 343.1 C1098.4 331.5 1131.4 354.0 1157.0 339.4" fill="none" stroke="#fff3ad" stroke-width="7.9" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <g transform="rotate(15.0 314.0 738.0)" opacity=".92">
+      <path d="M165.0 738.0 C138.0 691.0 265.0 642.0 341.0 654.0 C490.0 669.0 441.0 807.0 363.0 834.0 C287.0 842.0 148.0 785.0 165.0 738.0Z" fill="#f2b84d" opacity=".28" stroke="#fff3ad" stroke-width="6"/>
+      
+      <g opacity=".86">
+        <path d="M208.4 675.1 C184.4 707.0 188.4 729.8 208.4 734.4 C230.0 728.7 230.0 707.0 208.4 675.1Z" fill="#fff8df" class="thin"/>
+        <path d="M171.3 741.2 C192.4 730.4 223.2 751.5 247.1 737.8" fill="none" stroke="#fff3ad" stroke-width="7.4" stroke-linecap="round"/>
+      </g>
+      <g opacity=".86">
+        <path d="M307.5 668.6 C285.2 698.3 288.9 719.5 307.5 723.7 C327.6 718.4 327.6 698.3 307.5 668.6Z" fill="#f2b84d" class="thin"/>
+        <path d="M273.0 730.1 C292.6 720.0 321.3 739.6 343.5 726.9" fill="none" stroke="#fff3ad" stroke-width="6.9" stroke-linecap="round"/>
+      </g>
+      <g transform="rotate(-26 406.6 696.4)" opacity=".84">
+        <path d="M379.6 691.4 C370.6 663.4 402.6 660.4 405.6 689.4 C408.6 660.4 441.6 663.4 433.6 691.4 C421.6 719.4 392.6 719.4 379.6 691.4Z" fill="#f2b84d" class="thin"/>
+        <path d="M378.6 723.4 C396.6 713.4 417.6 732.4 435.6 721.4" fill="none" stroke="#fff8df" stroke-width="5.0" stroke-linecap="round"/>
+      </g>
+      <g opacity=".86">
+        <path d="M201.4 741.0 C178.3 771.8 182.1 793.8 201.4 798.2 C222.3 792.7 222.3 771.8 201.4 741.0Z" fill="#f2b84d" class="thin"/>
+        <path d="M165.6 804.8 C186.0 794.3 215.7 814.7 238.8 801.5" fill="none" stroke="#fff3ad" stroke-width="7.2" stroke-linecap="round"/>
+      </g>
+      <g transform="rotate(3 311.5 780.1)" opacity=".86">
+        <path d="M311.5 821.3 C304.4 788.6 315.7 767.3 311.5 740.3" fill="none" stroke="#16120d" stroke-width="10.7" stroke-linecap="round"/>
+        <path d="M311.5 771.6 C260.4 760.2 263.2 724.7 311.5 731.8 C303.0 748.8 310.1 760.2 311.5 771.6Z" fill="#fff8df" class="thin"/>
+        <path d="M315.7 778.7 C361.2 770.1 365.4 736.1 320.0 736.1 C327.1 753.1 320.0 767.3 315.7 778.7Z" fill="#fff8df" class="thin"/>
+      </g>
+    </g>
+
+    <g transform="rotate(-11.0 1187.0 706.0)" opacity=".92">
+      <path d="M1049.0 706.0 C1012.0 658.0 1136.0 607.0 1224.0 619.0 C1362.0 644.0 1311.0 768.0 1238.0 805.0 C1150.0 813.0 1022.0 754.0 1049.0 706.0Z" fill="#fff8df" opacity=".28" stroke="#23664f" stroke-width="6"/>
+      
+      <g opacity=".78">
+        <polygon points="1122.6,701.1 1089.2,708.7 1055.7,712.4 1048.3,679.5 1044.6,646.4 1077.0,639.4 1109.5,635.5 1116.3,667.5" fill="#23664f" class="thin"/>
+        <circle cx="1083.0" cy="673.4" r="9.7" fill="#fff3ad"/>
+      </g>
+      <g opacity=".78">
+        <polygon points="1206.6,693.7 1159.2,711.9 1143.3,663.9 1170.5,621.9 1210.8,651.0" fill="#fff8df" class="thin"/>
+        <circle cx="1179.5" cy="668.4" r="9.0" fill="#fff3ad"/>
+      </g>
+      <g opacity=".78">
+        <polygon points="1322.3,658.4 1307.3,673.8 1289.0,684.6 1277.6,666.7 1271.2,646.9 1290.8,639.9 1311.2,638.0" fill="#fff3ad" class="thin"/>
+        <circle cx="1295.0" cy="658.4" r="5.9" fill="#fff3ad"/>
+      </g>
+      <g opacity=".78">
+        <polygon points="1118.2,750.5 1093.5,766.6 1065.4,774.3 1055.6,747.0 1054.2,718.4 1082.5,715.1 1110.3,719.9" fill="#fff8df" class="thin"/>
+        <circle cx="1082.0" cy="741.5" r="7.6" fill="#fff3ad"/>
+      </g>
+      <g opacity=".78">
+        <polygon points="1233.5,769.3 1182.3,773.0 1147.4,736.0 1186.1,703.5 1235.4,712.6" fill="#fff3ad" class="thin"/>
+        <circle cx="1195.5" cy="738.5" r="9.2" fill="#fff3ad"/>
+      </g>
+    </g>
+  </g>
+  <g id="root-constellation">
+    <path d="M636.0 362.0 C755.5 334.0 755.5 733.0 875.0 725.0" fill="none" stroke="#fff8df" stroke-width="7" stroke-linecap="round" opacity="0.36"/>
+    <path d="M875.0 725.0 C631.0 770.0 631.0 231.0 387.0 259.0" fill="none" stroke="#fff8df" stroke-width="4" stroke-linecap="round" opacity="0.33"/>
+    <path d="M387.0 259.0 C870.0 319.0 870.0 846.0 1353.0 801.0" fill="none" stroke="#fff8df" stroke-width="5" stroke-linecap="round" opacity="0.37"/>
+    <path d="M1353.0 801.0 C1207.0 842.0 1207.0 417.0 1061.0 357.0" fill="none" stroke="#fff8df" stroke-width="7" stroke-linecap="round" opacity="0.43"/>
+    <path d="M1061.0 357.0 C768.0 277.0 768.0 246.0 475.0 205.0" fill="none" stroke="#fff8df" stroke-width="5" stroke-linecap="round" opacity="0.23"/>
+    <path d="M475.0 205.0 C811.0 198.0 811.0 309.0 1147.0 389.0" fill="none" stroke="#fff8df" stroke-width="9" stroke-linecap="round" opacity="0.23"/>
+    <path d="M1147.0 389.0 C854.0 421.0 854.0 230.0 561.0 237.0" fill="none" stroke="#fff8df" stroke-width="7" stroke-linecap="round" opacity="0.23"/>
+    <path d="M561.0 237.0 C791.0 186.0 791.0 299.0 1021.0 267.0" fill="none" stroke="#fff8df" stroke-width="4" stroke-linecap="round" opacity="0.31"/>
+    <path d="M1021.0 267.0 C1050.5 200.0 1050.5 689.0 1080.0 740.0" fill="none" stroke="#fff8df" stroke-width="7" stroke-linecap="round" opacity="0.24"/>
+    <circle cx="636.0" cy="362.0" r="27" fill="#fff3ad" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="636.0" cy="362.0" r="41" fill="none" stroke="#fff3ad" stroke-width="4" opacity=".18"/>
+    <circle cx="875.0" cy="725.0" r="20" fill="#fff8df" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="875.0" cy="725.0" r="34" fill="none" stroke="#fff3ad" stroke-width="4" opacity=".18"/>
+    <circle cx="387.0" cy="259.0" r="24" fill="#f2b84d" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="1353.0" cy="801.0" r="27" fill="#fff3ad" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="1353.0" cy="801.0" r="41" fill="none" stroke="#fff3ad" stroke-width="4" opacity=".18"/>
+    <circle cx="1061.0" cy="357.0" r="23" fill="#fff3ad" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="475.0" cy="205.0" r="20" fill="#fff3ad" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="475.0" cy="205.0" r="34" fill="none" stroke="#fff3ad" stroke-width="4" opacity=".18"/>
+    <circle cx="1147.0" cy="389.0" r="23" fill="#fff8df" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="561.0" cy="237.0" r="20" fill="#fff8df" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="561.0" cy="237.0" r="34" fill="none" stroke="#fff3ad" stroke-width="4" opacity=".18"/>
+    <circle cx="1021.0" cy="267.0" r="33" fill="#fff3ad" opacity=".52" stroke="#16120d" stroke-width="4"/>
+    <circle cx="1080.0" cy="740.0" r="31" fill="#f2b84d" opacity=".52" stroke="#16120d" stroke-width="4"/>
   </g>
 </svg>
