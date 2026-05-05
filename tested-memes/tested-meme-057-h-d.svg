@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc" data-pair-key="H+d" data-scene="knife_boundary_line">
+  <title id="title">حد؛دح - a knife-edge boundary across a crowded floor</title>
+  <desc id="desc">Text-free visual memory image for حد؛دح. Scene: a knife-edge boundary across a crowded floor. Review status: provisional_learning_candidate; proof safe: false.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181818"/>
+      <stop offset="52%" stop-color="#4a4e69"/>
+      <stop offset="100%" stop-color="#c9ada7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="24%" r="45%">
+      <stop offset="0%" stop-color="#f2e9e4" stop-opacity=".92"/>
+      <stop offset="52%" stop-color="#f2e9e4" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#f2e9e4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2e9e4"/>
+      <stop offset="100%" stop-color="#e07a5f"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#080604" flood-opacity=".34"/>
+    </filter>
+    <filter id="hardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="9" dy="12" stdDeviation="0" flood-color="#090705" flood-opacity=".36"/>
+    </filter>
+    <filter id="blurGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <style>
+      .ink { stroke: #14100b; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #14100b; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .fine { stroke: #14100b; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <circle cx="387" cy="168" r="2" fill="#fff8df" opacity="0.05"/>
+  <circle cx="524" cy="259" r="7" fill="#fff8df" opacity="0.06"/>
+  <circle cx="661" cy="350" r="5" fill="#fff8df" opacity="0.07"/>
+  <circle cx="798" cy="441" r="3" fill="#fff8df" opacity="0.08"/>
+  <circle cx="935" cy="532" r="8" fill="#fff8df" opacity="0.09"/>
+  <circle cx="1072" cy="623" r="6" fill="#fff8df" opacity="0.10"/>
+  <circle cx="1209" cy="714" r="4" fill="#fff8df" opacity="0.04"/>
+  <circle cx="1346" cy="805" r="2" fill="#fff8df" opacity="0.05"/>
+  <circle cx="1483" cy="896" r="7" fill="#fff8df" opacity="0.06"/>
+  <circle cx="180" cy="127" r="5" fill="#fff8df" opacity="0.07"/>
+  <circle cx="317" cy="218" r="3" fill="#fff8df" opacity="0.08"/>
+  <circle cx="454" cy="309" r="8" fill="#fff8df" opacity="0.09"/>
+  <circle cx="591" cy="400" r="6" fill="#fff8df" opacity="0.10"/>
+  <circle cx="728" cy="491" r="4" fill="#fff8df" opacity="0.04"/>
+  <circle cx="865" cy="582" r="2" fill="#fff8df" opacity="0.05"/>
+  <circle cx="1002" cy="673" r="7" fill="#fff8df" opacity="0.06"/>
+  <circle cx="1139" cy="764" r="5" fill="#fff8df" opacity="0.07"/>
+  <circle cx="1276" cy="855" r="3" fill="#fff8df" opacity="0.08"/>
+  <circle cx="1413" cy="86" r="8" fill="#fff8df" opacity="0.09"/>
+  <circle cx="110" cy="177" r="6" fill="#fff8df" opacity="0.10"/>
+  <circle cx="247" cy="268" r="4" fill="#fff8df" opacity="0.04"/>
+  <circle cx="384" cy="359" r="2" fill="#fff8df" opacity="0.05"/>
+  <circle cx="521" cy="450" r="7" fill="#fff8df" opacity="0.06"/>
+  <circle cx="658" cy="541" r="5" fill="#fff8df" opacity="0.07"/>
+  <circle cx="795" cy="632" r="3" fill="#fff8df" opacity="0.08"/>
+  <circle cx="932" cy="723" r="8" fill="#fff8df" opacity="0.09"/>
+  <circle cx="1069" cy="814" r="6" fill="#fff8df" opacity="0.10"/>
+  <circle cx="1206" cy="905" r="4" fill="#fff8df" opacity="0.04"/>
+  <circle cx="1343" cy="136" r="2" fill="#fff8df" opacity="0.05"/>
+  <circle cx="1480" cy="227" r="7" fill="#fff8df" opacity="0.06"/>
+  <circle cx="177" cy="318" r="5" fill="#fff8df" opacity="0.07"/>
+  <circle cx="314" cy="409" r="3" fill="#fff8df" opacity="0.08"/>
+  <circle cx="451" cy="500" r="8" fill="#fff8df" opacity="0.09"/>
+  <circle cx="588" cy="591" r="6" fill="#fff8df" opacity="0.10"/>
+  <g filter="url(#softShadow)">
+    
+    <path d="M258 770 L1250 220" fill="none" stroke="#e07a5f" stroke-width="68" stroke-linecap="round" class="ink"/>
+    <path d="M322 732 L1182 258" fill="none" stroke="#f2e9e4" stroke-width="16" stroke-linecap="round"/>
+    <path d="M522 245 C654 330 716 424 778 560 C838 424 960 332 1084 245" fill="none" stroke="#c9ada7" stroke-width="21" opacity=".6" stroke-linecap="round"/>
+    <g fill="#e07a5f" opacity=".36">
+      <circle cx="320" cy="360" r="44"/><circle cx="450" cy="436" r="30"/><circle cx="560" cy="330" r="38"/>
+      <circle cx="1015" cy="678" r="42"/><circle cx="1130" cy="584" r="34"/><circle cx="1248" cy="704" r="40"/>
+    </g>
+
+  </g>
+</svg>

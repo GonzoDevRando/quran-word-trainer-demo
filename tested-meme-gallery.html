@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ميمات الأزواج المؤقتة</title>
+  <style>
+    :root {
+      --ink: #151711;
+      --muted: #6a6659;
+      --paper: #fff8df;
+      --gold: #f4d35e;
+      --teal: #2b6d72;
+      --clay: #b85539;
+      --line: rgba(21,23,17,.13);
+      --shadow: 0 24px 78px rgba(31, 27, 18, .18);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 0%, rgba(244,211,94,.58), transparent 30rem),
+        radial-gradient(circle at 86% 6%, rgba(43,109,114,.25), transparent 25rem),
+        linear-gradient(145deg, #fff8df, #ead7ad 56%, #d9e6cf);
+      font-family: "Geeza Pro", "Noto Naskh Arabic", "Scheherazade New", "Avenir Next", serif;
+    }
+    a { color: inherit; }
+    .english { direction: ltr; font-family: "Avenir Next", "Trebuchet MS", sans-serif; }
+    .shell { width: min(1440px, 100%); margin: 0 auto; padding: 24px 16px 76px; }
+    .hero { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: end; margin-bottom: 22px; }
+    .eyebrow { color: var(--teal); font-family: "Avenir Next", sans-serif; font-size: .73rem; font-weight: 950; letter-spacing: .12em; text-transform: uppercase; direction: ltr; }
+    h1 { margin: 8px 0 10px; font-size: clamp(2.5rem, 9vw, 6.8rem); line-height: .86; letter-spacing: -.05em; }
+    .subline { margin: 0; color: var(--muted); max-width: 72rem; line-height: 1.65; }
+    .actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 9px; }
+    .back, .pill {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,.62);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 40px;
+      padding: 9px 13px;
+      text-decoration: none;
+      color: var(--teal);
+      font-family: "Avenir Next", sans-serif;
+      font-weight: 950;
+      direction: ltr;
+    }
+    .statLine { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; direction: ltr; }
+    .pill.gold { background: rgba(244,211,94,.32); color: #665011; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 18px; }
+    .card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      background: rgba(255,255,255,.68);
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-rows: auto 1fr;
+    }
+    .imageLink { display: block; background: #130f0a; }
+    img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; }
+    .meta { display: grid; gap: 11px; padding: 15px 16px 18px; }
+    .pair { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+    .rank { color: var(--clay); font-family: "Avenir Next", sans-serif; font-weight: 950; direction: ltr; }
+    .entonym { font-size: 2rem; font-weight: 950; line-height: 1; }
+    .scene { color: var(--teal); font-weight: 950; line-height: 1.45; }
+    .micro { color: var(--ink); line-height: 1.45; font-weight: 900; }
+    .microEn { color: var(--muted); font-size: .88rem; line-height: 1.38; font-weight: 800; }
+    .boxes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .box {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255,248,223,.58);
+      padding: 10px;
+      display: grid;
+      gap: 5px;
+      align-content: start;
+    }
+    .box strong { color: var(--teal); font-family: "Avenir Next", sans-serif; font-size: .68rem; font-weight: 950; letter-spacing: .08em; text-transform: uppercase; direction: ltr; }
+    .box span { line-height: 1.45; }
+    .full { grid-column: 1 / -1; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip { border-radius: 999px; background: rgba(43,109,114,.12); color: var(--teal); font-weight: 950; padding: 5px 8px; line-height: 1.15; }
+    .chip.gold { background: rgba(244,211,94,.36); color: #665011; }
+    .chip.warn { background: rgba(184,85,57,.14); color: var(--clay); }
+    .caveat {
+      border: 1px solid rgba(184,85,57,.24);
+      border-radius: 22px;
+      background: rgba(255,248,223,.68);
+      color: #6b392d;
+      padding: 11px 12px;
+      font-family: "Avenir Next", sans-serif;
+      font-weight: 850;
+      line-height: 1.42;
+      direction: ltr;
+    }
+    .cardActions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; direction: ltr; }
+    button, .explore {
+      min-height: 43px;
+      border: 1px solid rgba(21,23,17,.16);
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--ink);
+      color: var(--paper);
+      font-family: "Avenir Next", sans-serif;
+      font-weight: 950;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .16s ease, box-shadow .16s ease;
+    }
+    button { background: var(--gold); color: #33270b; }
+    button:hover, .explore:hover, button:focus-visible, .explore:focus-visible { transform: translateY(-1px); box-shadow: 0 14px 30px rgba(21,23,17,.18); outline: none; }
+    @media (max-width: 760px) {
+      .hero { grid-template-columns: 1fr; }
+      .actions { justify-content: flex-start; }
+      .grid { grid-template-columns: 1fr; }
+      .boxes { grid-template-columns: 1fr; }
+      .shell { padding-inline: 11px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">provisional learning · Arabic-first · not proof</div>
+        <h1>ميمات الأزواج المؤقتة</h1>
+        <p class="subline">هذه بطاقات تعلّم وبحث مؤقتة، وليست إثباتا نهائيا لنظرية بوهس. أدرجنا فقط الأزواج التي اجتازت سطح التعلم الحالي، مع إبقاء بوابة الإثبات مغلقة إلى أن تكتمل قراءة المعجم المصدر، وعمق المعاني، واختبارات الضبط.</p>
+        <div class="statLine">
+          <span class="pill gold">18 provisional meme images</span>
+          <span class="pill">proof-safe pairs: 0</span>
+          <span class="pill">quality gate: PASS</span>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="back" href="index.html">Back to trainer</a>
+        <a class="back" href="meme-gallery.html">Earlier full deck</a>
+      </div>
+    </header>
+    <section class="grid">
+      <article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-002-m-r.html"><img src="tested-memes/tested-meme-002-m-r.svg?v=bohas_tested_meme_gallery.v2" alt="رم؛مر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#2</span><strong class="entonym">رم؛مر</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">جمر يسقط في ساعة رملية</div>
+          <div class="micro">مسار وذهاب ورجوع</div>
+          <div class="microEn english">path, departure, and return</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ر-م / م-ر</span></div>
+            <div class="box"><strong>Bridge</strong><span>مسار وذهاب ورجوع</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">انفه:9</span><span class="chip">رما:3</span><span class="chip">كعب:4</span><span class="chip">اطراف:5</span><span class="chip">خوران:3</span><span class="chip">سدت:3</span><span class="chip">دهن:4</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">جمر</span><span class="chip gold">استمر</span><span class="chip gold">مرا</span><span class="chip gold">مرت</span><span class="chip gold">يسيرا</span><span class="chip gold">قمر</span><span class="chip gold">عامر</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ر م . م ر">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-002-m-r.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-007-d-r.html"><img src="tested-memes/tested-meme-007-d-r.svg?v=bohas_tested_meme_gallery.v2" alt="در؛رد"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#7</span><strong class="entonym">در؛رد</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">نهر يرجع عبر بوابة حجرية</div>
+          <div class="micro">غذاء وامتلاء وإنضاج</div>
+          <div class="microEn english">food, filling, and ripening</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>د-ر / ر-د</span></div>
+            <div class="box"><strong>Bridge</strong><span>مسار وذهاب ورجوع</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">ردا:6</span><span class="chip">دفع:6</span><span class="chip">يهمز:4</span><span class="chip">درا:3</span><span class="chip">ادر:4</span><span class="chip">درت:3</span><span class="chip">درة:4</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">رجع</span><span class="chip gold">يركب</span><span class="chip gold">سمر</span><span class="chip gold">عامر</span><span class="chip gold">دارات</span><span class="chip gold">تداري</span><span class="chip gold">مراتب</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="د ر . ر د">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-007-d-r.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-010-a-r.html"><img src="tested-memes/tested-meme-010-a-r.svg?v=bohas_tested_meme_gallery.v2" alt="ار؛را"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#10</span><strong class="entonym">ار؛را</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">أثر نور يدور في قوس خال</div>
+          <div class="micro">غذاء وامتلاء وإنضاج</div>
+          <div class="microEn english">food, filling, and ripening</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ا-ر / ر-ا</span></div>
+            <div class="box"><strong>Bridge</strong><span>مسار وذهاب ورجوع</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">يهمز:6</span><span class="chip">ارا:4</span><span class="chip">ارة:4</span><span class="chip">خفف:3</span><span class="chip">منقلبة:3</span><span class="chip">اطروري:2</span><span class="chip">تءرور:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">مرح</span><span class="chip gold">مرطي</span><span class="chip gold">مرءوس</span><span class="chip gold">مرحوم</span><span class="chip gold">يحمل</span><span class="chip gold">ثمره</span><span class="chip gold">مرض</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ا ر . ر ا">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-010-a-r.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-031-gh-r.html"><img src="tested-memes/tested-meme-031-gh-r.svg?v=bohas_tested_meme_gallery.v2" alt="رغ؛غر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#31</span><strong class="entonym">رغ؛غر</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">أوعية يربطها خيط حرير في الضباب</div>
+          <div class="micro">غذاء وامتلاء وإنضاج</div>
+          <div class="microEn english">food, filling, and ripening</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ر-غ / غ-ر</span></div>
+            <div class="box"><strong>Bridge</strong><span>علاقة وخدمة والتزام</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">غرا:4</span><span class="chip">غرة:3</span><span class="chip">اقلف:2</span><span class="chip">لبنها:3</span><span class="chip">ابويه:2</span><span class="chip">تخلف:2</span><span class="chip">ظهرت:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">احب</span><span class="chip gold">قعود</span><span class="chip gold">ورب</span><span class="chip gold">ربك</span><span class="chip gold">صاحبها</span><span class="chip gold">مولود</span><span class="chip gold">دينه</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ر غ . غ ر">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-031-gh-r.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-032-d-r.html"><img src="tested-memes/tested-meme-032-d-r.svg?v=bohas_tested_meme_gallery.v2" alt="رض؛ضر"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#32</span><strong class="entonym">رض؛ضر</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">حجر أحمر متصدع يرمم بالذهب</div>
+          <div class="micro">غذاء وامتلاء وإنضاج</div>
+          <div class="microEn english">food, filling, and ripening</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ر-ض / ض-ر</span></div>
+            <div class="box"><strong>Bridge</strong><span>علاقة وخدمة والتزام</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">رضا:4</span><span class="chip">ضره:3</span><span class="chip">ضرا:2</span><span class="chip">صخور:2</span><span class="chip">ضاره:2</span><span class="chip">اباد:2</span><span class="chip">مقيم:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">ربح</span><span class="chip gold">برود</span><span class="chip gold">قرب</span><span class="chip gold">تقارب</span><span class="chip gold">تحبب</span><span class="chip gold">يهودي</span><span class="chip gold">سرب</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ر ض . ض ر">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-032-d-r.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-034-h-s.html"><img src="tested-memes/tested-meme-034-h-s.svg?v=bohas_tested_meme_gallery.v2" alt="حس؛سح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#34</span><strong class="entonym">حس؛سح</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">قشر ينفتح كطريق ملتف</div>
+          <div class="micro">بدن وحس وتنبيه</div>
+          <div class="microEn english">body, sensation, and alerting</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ح-س / س-ح</span></div>
+            <div class="box"><strong>Bridge</strong><span>مسار وذهاب ورجوع</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">ساح:3</span><span class="chip">ساحة:3</span><span class="chip">قشره:3</span><span class="chip">اقماعه:2</span><span class="chip">يدفع:2</span><span class="chip">حرم:3</span><span class="chip">سحا:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">حمر</span><span class="chip gold">مرعي</span><span class="chip gold">مرق</span><span class="chip gold">دارع</span><span class="chip gold">عسير</span><span class="chip gold">مرجلي</span><span class="chip gold">رجع</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ح س . س ح">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-034-h-s.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-035-b-th.html"><img src="tested-memes/tested-meme-035-b-th.svg?v=bohas_tested_meme_gallery.v2" alt="بث؛ثب"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#35</span><strong class="entonym">بث؛ثب</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">بذور تنتثر كالشرر فوق سطح حي</div>
+          <div class="micro">موضع وماء وأرض</div>
+          <div class="microEn english">place, water, and earth</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ب-ث / ث-ب</span></div>
+            <div class="box"><strong>Bridge</strong><span>بدن وحس وتنبيه</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">بثا:3</span><span class="chip">ثبة:3</span><span class="chip">سهلة:3</span><span class="chip">باث:2</span><span class="chip">بثي:2</span><span class="chip">حثه:2</span><span class="chip">رطبه:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">لحما</span><span class="chip gold">انفتحت</span><span class="chip gold">دميث</span><span class="chip gold">دمشق</span><span class="chip gold">جلده</span><span class="chip gold">وجهه</span><span class="chip gold">لحمها</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ب ث . ث ب">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-035-b-th.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-045-h-m.html"><img src="tested-memes/tested-meme-045-h-m.svg?v=bohas_tested_meme_gallery.v2" alt="مه؛هم"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#45</span><strong class="entonym">مه؛هم</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">عاصفة تخرج من الصدر إلى الأفق</div>
+          <div class="micro">بدن وحس وتنبيه</div>
+          <div class="microEn english">body, sensation, and alerting</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>م-ه / ه-م</span></div>
+            <div class="box"><strong>Bridge</strong><span>مسار وذهاب ورجوع</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">حره:5</span><span class="chip">هام:4</span><span class="chip">يومنا:4</span><span class="chip">همة:3</span><span class="chip">اجمع:4</span><span class="chip">همت:3</span><span class="chip">اعمي:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">ذهبت</span><span class="chip gold">مرض</span><span class="chip gold">حمر</span><span class="chip gold">يسير</span><span class="chip gold">مرعي</span><span class="chip gold">اقمر</span><span class="chip gold">نجاء</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="م ه . ه م">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-045-h-m.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-050-f-q.html"><img src="tested-memes/tested-meme-050-f-q.svg?v=bohas_tested_meme_gallery.v2" alt="فق؛قف"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#50</span><strong class="entonym">فق؛قف</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">مفتاح عالق في عتبة جدار مشقوق</div>
+          <div class="micro">بدن وحس وتنبيه</div>
+          <div class="microEn english">body, sensation, and alerting</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ف-ق / ق-ف</span></div>
+            <div class="box"><strong>Bridge</strong><span>علاقة وخدمة والتزام</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">قفا:4</span><span class="chip">بالسين:2</span><span class="chip">بيعة:2</span><span class="chip">توسع:2</span><span class="chip">قفي:2</span><span class="chip">تقف:2</span><span class="chip">انفلق:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">اربع</span><span class="chip gold">ضربت</span><span class="chip gold">اهله</span><span class="chip gold">لاهل</span><span class="chip gold">يربوع</span><span class="chip gold">اهلنا</span><span class="chip gold">سود</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ف ق . ق ف">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-050-f-q.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-055-e-j.html"><img src="tested-memes/tested-meme-055-e-j.svg?v=bohas_tested_meme_gallery.v2" alt="جع؛عج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#55</span><strong class="entonym">جع؛عج</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">دوائر تجتمع حول طبلة لولبية</div>
+          <div class="micro">زمن ونور ولون</div>
+          <div class="microEn english">time, light, and color</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ج-ع / ع-ج</span></div>
+            <div class="box"><strong>Bridge</strong><span>علاقة وخدمة والتزام</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">عجت:4</span><span class="chip">جعة:3</span><span class="chip">جيع:2</span><span class="chip">عجي:2</span><span class="chip">يصرع:2</span><span class="chip">عجا:2</span><span class="chip">صرعه:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">عربيا</span><span class="chip gold">يدين</span><span class="chip gold">ربو</span><span class="chip gold">حبس</span><span class="chip gold">اربعا</span><span class="chip gold">اربع</span><span class="chip gold">احبسه</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ج ع . ع ج">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-055-e-j.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-056-s-m.html"><img src="tested-memes/tested-meme-056-s-m.svg?v=bohas_tested_meme_gallery.v2" alt="صم؛مص"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#56</span><strong class="entonym">صم؛مص</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">قارورة مختومة ينتفخ فيها ضغط صامت</div>
+          <div class="micro">قطع وضرب وأثر</div>
+          <div class="microEn english">cutting, striking, and impact</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ص-م / م-ص</span></div>
+            <div class="box"><strong>Bridge</strong><span>بدن وحس وتنبيه</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">صما:4</span><span class="chip">قارورة:3</span><span class="chip">صمه:2</span><span class="chip">امص:2</span><span class="chip">خاميز:2</span><span class="chip">يشرح:2</span><span class="chip">ينونة:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">قدم</span><span class="chip gold">انفتها</span><span class="chip gold">عينها</span><span class="chip gold">دماغه</span><span class="chip gold">نفسها</span><span class="chip gold">عرقت</span><span class="chip gold">دمن</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ص م . م ص">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-056-s-m.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-057-h-d.html"><img src="tested-memes/tested-meme-057-h-d.svg?v=bohas_tested_meme_gallery.v2" alt="حد؛دح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#57</span><strong class="entonym">حد؛دح</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">حد سكين يقسم أرضا مزدحمة</div>
+          <div class="micro">بدن وحس وتنبيه</div>
+          <div class="microEn english">body, sensation, and alerting</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ح-د / د-ح</span></div>
+            <div class="box"><strong>Bridge</strong><span>قطع وضرب وأثر</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">دحا:4</span><span class="chip">صاخد:2</span><span class="chip">فصل:3</span><span class="chip">حادي:2</span><span class="chip">حدا:2</span><span class="chip">ظهره:3</span><span class="chip">ماءها:3</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">حده</span><span class="chip gold">حدا</span><span class="chip gold">ينقطع</span><span class="chip gold">حدو</span><span class="chip gold">حدء</span><span class="chip gold">انقطع</span><span class="chip gold">حدءت</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ح د . د ح">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-057-h-d.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-059-e-s.html"><img src="tested-memes/tested-meme-059-e-s.svg?v=bohas_tested_meme_gallery.v2" alt="صع؛عص"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#59</span><strong class="entonym">صع؛عص</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">حبل مضفور مشدود في أقواس متوترة</div>
+          <div class="micro">بدن وحس وتنبيه</div>
+          <div class="microEn english">body, sensation, and alerting</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ص-ع / ع-ص</span></div>
+            <div class="box"><strong>Bridge</strong><span>علاقة وخدمة والتزام</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">دقة:3</span><span class="chip">صاعة:2</span><span class="chip">عصافير:2</span><span class="chip">اضطراب:3</span><span class="chip">يتخذ:3</span><span class="chip">اصغر:2</span><span class="chip">اصابته:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">ضربة</span><span class="chip gold">اضطرب</span><span class="chip gold">تضرباها</span><span class="chip gold">عبده</span><span class="chip gold">يودع</span><span class="chip gold">حبشة</span><span class="chip gold">عطود</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ص ع . ع ص">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-059-e-s.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-060-h-j.html"><img src="tested-memes/tested-meme-060-h-j.svg?v=bohas_tested_meme_gallery.v2" alt="جح؛حج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#60</span><strong class="entonym">جح؛حج</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">طريق ضيق يصعد إلى بوابة جبل</div>
+          <div class="micro">بدن وحس وتنبيه</div>
+          <div class="microEn english">body, sensation, and alerting</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ج-ح / ح-ج</span></div>
+            <div class="box"><strong>Bridge</strong><span>مسار وذهاب ورجوع</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">جاح:4</span><span class="chip">حاج:4</span><span class="chip">حجا:3</span><span class="chip">احتجت:2</span><span class="chip">جاءحة:2</span><span class="chip">حجت:2</span><span class="chip">حاجة:4</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">جاءحة</span><span class="chip gold">يذهب</span><span class="chip gold">حملت</span><span class="chip gold">دارء</span><span class="chip gold">مرابع</span><span class="chip gold">مراتها</span><span class="chip gold">حمر</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ج ح . ح ج">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-060-h-j.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-061-h-j.html"><img src="tested-memes/tested-meme-061-h-j.svg?v=bohas_tested_meme_gallery.v2" alt="جه؛هج"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#61</span><strong class="entonym">جه؛هج</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">مصباح ينتظر عند باب ليلي</div>
+          <div class="micro">بدن وحس وتنبيه</div>
+          <div class="microEn english">body, sensation, and alerting</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ج-ه / ه-ج</span></div>
+            <div class="box"><strong>Bridge</strong><span>علاقة وخدمة والتزام</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">نام:4</span><span class="chip">جهت:2</span><span class="chip">جهته:2</span><span class="chip">هيج:2</span><span class="chip">استقبلته:2</span><span class="chip">هاجة:2</span><span class="chip">هجة:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">معبد</span><span class="chip gold">غربة</span><span class="chip gold">مجود</span><span class="chip gold">جود</span><span class="chip gold">رباعي</span><span class="chip gold">مغربا</span><span class="chip gold">ربو</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ج ه . ه ج">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-061-h-j.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-063-h-s.html"><img src="tested-memes/tested-meme-063-h-s.svg?v=bohas_tested_meme_gallery.v2" alt="حص؛صح"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#63</span><strong class="entonym">حص؛صح</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">دائرة مقفلة يهرب منها أثر</div>
+          <div class="micro">قطع وضرب وأثر</div>
+          <div class="microEn english">cutting, striking, and impact</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ح-ص / ص-ح</span></div>
+            <div class="box"><strong>Bridge</strong><span>مسار وذهاب ورجوع</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">حصا:4</span><span class="chip">حاص:2</span><span class="chip">اخذتهم:2</span><span class="chip">بيص:2</span><span class="chip">تحص:2</span><span class="chip">ضيقة:2</span><span class="chip">حصت:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">مرء</span><span class="chip gold">تخرج</span><span class="chip gold">مخرج</span><span class="chip gold">جاءكم</span><span class="chip gold">جاءني</span><span class="chip gold">عمرا</span><span class="chip gold">دخلوا</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ح ص . ص ح">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-063-h-s.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-066-s-d.html"><img src="tested-memes/tested-meme-066-s-d.svg?v=bohas_tested_meme_gallery.v2" alt="دص؛صد"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#66</span><strong class="entonym">دص؛صد</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">ترس يصد موجة أثر داكنة</div>
+          <div class="micro">بدن وحس وتنبيه</div>
+          <div class="microEn english">body, sensation, and alerting</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>د-ص / ص-د</span></div>
+            <div class="box"><strong>Bridge</strong><span>قطع وضرب وأثر</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">املس:3</span><span class="chip">يستعن:2</span><span class="chip">انحدر:2</span><span class="chip">هام:2</span><span class="chip">ذبح:2</span><span class="chip">كلبة:2</span><span class="chip">انتهي:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">انحدر</span><span class="chip gold">يصد</span><span class="chip gold">يصدون</span><span class="chip gold">صدا</span><span class="chip gold">تصدية</span><span class="chip gold">الصد</span><span class="chip gold">وصد</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05;G07</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="د ص . ص د">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-066-s-d.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+<article class="card">
+        <a class="imageLink" href="tested-memes/tested-meme-068-q-q.html"><img src="tested-memes/tested-meme-068-q-q.svg?v=bohas_tested_meme_gallery.v2" alt="قق"></a>
+        <div class="meta">
+          <div class="pair"><span class="rank">#68</span><strong class="entonym">قق</strong></div>
+          <div class="chips"><span class="chip gold">provisional learner card</span><span class="chip warn">not proof-safe</span></div>
+          <div class="scene">جرس متصدع يطلق شظايا صوتية</div>
+          <div class="micro">صوت وتسمية ونداء</div>
+          <div class="microEn english">sound, naming, and calling</div>
+          <div class="boxes">
+            <div class="box"><strong>Sound pair</strong><span>ق-ق</span></div>
+            <div class="box"><strong>Bridge</strong><span>قطع وضرب وأثر</span></div>
+            <div class="box full"><strong>Direct terms</strong><span class="chips"><span class="chip">حكاية:4</span><span class="chip">ضوعف:2</span><span class="chip">نباح:2</span><span class="chip">اولي:3</span><span class="chip">قاف:2</span><span class="chip">كلاب:2</span><span class="chip">الشق:2</span></span></div>
+            <div class="box full"><strong>Bridge evidence</strong><span class="chips"><span class="chip gold">حدثه</span><span class="chip gold">حدث</span><span class="chip gold">حداءد</span><span class="chip gold">دحداحة</span><span class="chip gold">صدق</span><span class="chip gold">صدع</span><span class="chip gold">انحدر</span></span></div>
+            <div class="box full"><strong>Still pending</strong><span class="chips"><span class="chip warn">G04;G05</span></span></div>
+          </div>
+          <div class="caveat">Next proof step: Allow as a clearly provisional learning/research card; require source-depth parsing before calling it stable or proved.</div>
+          <div class="cardActions">
+            <button type="button" data-sound="ق ق">Hear sound</button>
+            <a class="explore" href="tested-memes/tested-meme-068-q-q.html">Explore evidence</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script>
+    function speak(text) {
+      if (!text || !("speechSynthesis" in window)) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "ar-SA";
+      utterance.rate = 0.62;
+      utterance.pitch = 0.92;
+      window.speechSynthesis.speak(utterance);
+    }
+    document.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-sound]");
+      if (!button) return;
+      speak(button.dataset.sound || "");
+    });
+  </script>
+</body>
+</html>

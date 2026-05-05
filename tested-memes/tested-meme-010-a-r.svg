@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc" data-pair-key="a+r" data-scene="spiral_arch_light">
+  <title id="title">ار؛را - a light trail spiraling through an empty arch</title>
+  <desc id="desc">Text-free visual memory image for ار؛را. Scene: a light trail spiraling through an empty arch. Review status: provisional_learning_candidate; proof safe: false.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#211a18"/>
+      <stop offset="52%" stop-color="#6a3c2c"/>
+      <stop offset="100%" stop-color="#f0a65a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="24%" r="45%">
+      <stop offset="0%" stop-color="#f7e6a4" stop-opacity=".92"/>
+      <stop offset="52%" stop-color="#f7e6a4" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#f7e6a4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7e6a4"/>
+      <stop offset="100%" stop-color="#0e6b76"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#080604" flood-opacity=".34"/>
+    </filter>
+    <filter id="hardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="9" dy="12" stdDeviation="0" flood-color="#090705" flood-opacity=".36"/>
+    </filter>
+    <filter id="blurGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <style>
+      .ink { stroke: #14100b; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #14100b; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .fine { stroke: #14100b; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <circle cx="1182" cy="224" r="7" fill="#fff8df" opacity="0.08"/>
+  <circle cx="1319" cy="315" r="5" fill="#fff8df" opacity="0.09"/>
+  <circle cx="1456" cy="406" r="3" fill="#fff8df" opacity="0.10"/>
+  <circle cx="153" cy="497" r="8" fill="#fff8df" opacity="0.04"/>
+  <circle cx="290" cy="588" r="6" fill="#fff8df" opacity="0.05"/>
+  <circle cx="427" cy="679" r="4" fill="#fff8df" opacity="0.06"/>
+  <circle cx="564" cy="770" r="2" fill="#fff8df" opacity="0.07"/>
+  <circle cx="701" cy="861" r="7" fill="#fff8df" opacity="0.08"/>
+  <circle cx="838" cy="92" r="5" fill="#fff8df" opacity="0.09"/>
+  <circle cx="975" cy="183" r="3" fill="#fff8df" opacity="0.10"/>
+  <circle cx="1112" cy="274" r="8" fill="#fff8df" opacity="0.04"/>
+  <circle cx="1249" cy="365" r="6" fill="#fff8df" opacity="0.05"/>
+  <circle cx="1386" cy="456" r="4" fill="#fff8df" opacity="0.06"/>
+  <circle cx="83" cy="547" r="2" fill="#fff8df" opacity="0.07"/>
+  <circle cx="220" cy="638" r="7" fill="#fff8df" opacity="0.08"/>
+  <circle cx="357" cy="729" r="5" fill="#fff8df" opacity="0.09"/>
+  <circle cx="494" cy="820" r="3" fill="#fff8df" opacity="0.10"/>
+  <circle cx="631" cy="911" r="8" fill="#fff8df" opacity="0.04"/>
+  <circle cx="768" cy="142" r="6" fill="#fff8df" opacity="0.05"/>
+  <circle cx="905" cy="233" r="4" fill="#fff8df" opacity="0.06"/>
+  <circle cx="1042" cy="324" r="2" fill="#fff8df" opacity="0.07"/>
+  <circle cx="1179" cy="415" r="7" fill="#fff8df" opacity="0.08"/>
+  <circle cx="1316" cy="506" r="5" fill="#fff8df" opacity="0.09"/>
+  <circle cx="1453" cy="597" r="3" fill="#fff8df" opacity="0.10"/>
+  <circle cx="150" cy="688" r="8" fill="#fff8df" opacity="0.04"/>
+  <circle cx="287" cy="779" r="6" fill="#fff8df" opacity="0.05"/>
+  <circle cx="424" cy="870" r="4" fill="#fff8df" opacity="0.06"/>
+  <circle cx="561" cy="101" r="2" fill="#fff8df" opacity="0.07"/>
+  <circle cx="698" cy="192" r="7" fill="#fff8df" opacity="0.08"/>
+  <circle cx="835" cy="283" r="5" fill="#fff8df" opacity="0.09"/>
+  <circle cx="972" cy="374" r="3" fill="#fff8df" opacity="0.10"/>
+  <circle cx="1109" cy="465" r="8" fill="#fff8df" opacity="0.04"/>
+  <circle cx="1246" cy="556" r="6" fill="#fff8df" opacity="0.05"/>
+  <circle cx="1383" cy="647" r="4" fill="#fff8df" opacity="0.06"/>
+  <g filter="url(#softShadow)">
+    
+    <path d="M475 850 V426 C475 246 620 138 800 138 C980 138 1125 246 1125 426 V850" fill="none" class="ink"/>
+    <path d="M580 850 V440 C580 318 679 242 800 242 C921 242 1020 318 1020 440 V850" fill="#0e6b76" opacity=".16" class="thin"/>
+    <path d="M810 776 C556 728 540 494 728 442 C920 389 1000 555 858 612 C724 666 640 538 748 500 C852 462 898 548 813 576" fill="none" stroke="#f7e6a4" stroke-width="27" stroke-linecap="round" opacity=".9"/>
+    <circle cx="804" cy="544" r="54" fill="#f7e6a4" opacity=".62"/>
+    <path d="M420 850 H1180" fill="none" class="ink"/>
+
+  </g>
+</svg>
