@@ -35,13 +35,103 @@
   <circle cx="971" cy="825" r="23" fill="#fff8df" opacity="0.16"/>
   <circle cx="1113" cy="171" r="40" fill="#ff8b5c" opacity="0.08"/>
   <circle cx="1255" cy="367" r="23" fill="#fff8df" opacity="0.11"/>
-  <g filter="url(#posterShadow)">
+  <g filter="url(#posterShadow)" opacity=".36">
     
     <g id="poster-force-cut-rope">
       <path d="M190 426 C430 360 574 402 744 500" fill="none" stroke="#fff8df" stroke-width="44" stroke-linecap="round"/>
       <path d="M856 500 C1030 598 1180 640 1410 574" fill="none" stroke="#fff8df" stroke-width="44" stroke-linecap="round"/>
       <path d="M706 312 L894 690 M894 312 L706 690" stroke="#ffe27b" stroke-width="28" stroke-linecap="round"/>
       <circle cx="800" cy="500" r="100" fill="#ff8b5c" opacity=".82" class="ink"/>
+    </g>
+  </g>
+  <g id="pair-signature-mural" filter="url(#hardInk)">
+    
+    <g opacity=".98">
+      
+      <polygon points="361.6,236.0 320.0,260.0 278.4,236.0 278.4,188.0 320.0,164.0 361.6,188.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="449.6,236.0 408.0,260.0 366.4,236.0 366.4,188.0 408.0,164.0 449.6,188.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="537.6,236.0 496.0,260.0 454.4,236.0 454.4,188.0 496.0,164.0 537.6,188.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="625.6,236.0 584.0,260.0 542.4,236.0 542.4,188.0 584.0,164.0 625.6,188.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="713.6,236.0 672.0,260.0 630.4,236.0 630.4,188.0 672.0,164.0 713.6,188.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="801.6,236.0 760.0,260.0 718.4,236.0 718.4,188.0 760.0,164.0 801.6,188.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="889.6,236.0 848.0,260.0 806.4,236.0 806.4,188.0 848.0,164.0 889.6,188.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="977.6,236.0 936.0,260.0 894.4,236.0 894.4,188.0 936.0,164.0 977.6,188.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="405.6,312.0 364.0,336.0 322.4,312.0 322.4,264.0 364.0,240.0 405.6,264.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="493.6,312.0 452.0,336.0 410.4,312.0 410.4,264.0 452.0,240.0 493.6,264.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="581.6,312.0 540.0,336.0 498.4,312.0 498.4,264.0 540.0,240.0 581.6,264.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="669.6,312.0 628.0,336.0 586.4,312.0 586.4,264.0 628.0,240.0 669.6,264.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="757.6,312.0 716.0,336.0 674.4,312.0 674.4,264.0 716.0,240.0 757.6,264.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="845.6,312.0 804.0,336.0 762.4,312.0 762.4,264.0 804.0,240.0 845.6,264.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="933.6,312.0 892.0,336.0 850.4,312.0 850.4,264.0 892.0,240.0 933.6,264.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="1021.6,312.0 980.0,336.0 938.4,312.0 938.4,264.0 980.0,240.0 1021.6,264.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="361.6,388.0 320.0,412.0 278.4,388.0 278.4,340.0 320.0,316.0 361.6,340.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="449.6,388.0 408.0,412.0 366.4,388.0 366.4,340.0 408.0,316.0 449.6,340.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="537.6,388.0 496.0,412.0 454.4,388.0 454.4,340.0 496.0,316.0 537.6,340.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="625.6,388.0 584.0,412.0 542.4,388.0 542.4,340.0 584.0,316.0 625.6,340.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="713.6,388.0 672.0,412.0 630.4,388.0 630.4,340.0 672.0,316.0 713.6,340.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="801.6,388.0 760.0,412.0 718.4,388.0 718.4,340.0 760.0,316.0 801.6,340.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="889.6,388.0 848.0,412.0 806.4,388.0 806.4,340.0 848.0,316.0 889.6,340.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="977.6,388.0 936.0,412.0 894.4,388.0 894.4,340.0 936.0,316.0 977.6,340.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="405.6,464.0 364.0,488.0 322.4,464.0 322.4,416.0 364.0,392.0 405.6,416.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="493.6,464.0 452.0,488.0 410.4,464.0 410.4,416.0 452.0,392.0 493.6,416.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="581.6,464.0 540.0,488.0 498.4,464.0 498.4,416.0 540.0,392.0 581.6,416.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="669.6,464.0 628.0,488.0 586.4,464.0 586.4,416.0 628.0,392.0 669.6,416.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="757.6,464.0 716.0,488.0 674.4,464.0 674.4,416.0 716.0,392.0 757.6,416.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="845.6,464.0 804.0,488.0 762.4,464.0 762.4,416.0 804.0,392.0 845.6,416.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="933.6,464.0 892.0,488.0 850.4,464.0 850.4,416.0 892.0,392.0 933.6,416.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="1021.6,464.0 980.0,488.0 938.4,464.0 938.4,416.0 980.0,392.0 1021.6,416.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="361.6,540.0 320.0,564.0 278.4,540.0 278.4,492.0 320.0,468.0 361.6,492.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="449.6,540.0 408.0,564.0 366.4,540.0 366.4,492.0 408.0,468.0 449.6,492.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="537.6,540.0 496.0,564.0 454.4,540.0 454.4,492.0 496.0,468.0 537.6,492.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="625.6,540.0 584.0,564.0 542.4,540.0 542.4,492.0 584.0,468.0 625.6,492.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="713.6,540.0 672.0,564.0 630.4,540.0 630.4,492.0 672.0,468.0 713.6,492.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="801.6,540.0 760.0,564.0 718.4,540.0 718.4,492.0 760.0,468.0 801.6,492.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <polygon points="889.6,540.0 848.0,564.0 806.4,540.0 806.4,492.0 848.0,468.0 889.6,492.0" fill="#fff8df" opacity=".78" class="thin"/>
+      <polygon points="977.6,540.0 936.0,564.0 894.4,540.0 894.4,492.0 936.0,468.0 977.6,492.0" fill="#ff8b5c" opacity=".78" class="thin"/>
+      <path d="M240 822 C476 680 654 730 800 620 C972 492 1138 540 1360 380" fill="none" stroke="#ffe27b" stroke-width="26" stroke-linecap="round" opacity=".54"/>
+      <g transform="rotate(18.0 787.0 222.0)">
+      <g opacity=".84">
+        <path d="M880.8 226.9 L929.4 229.5" stroke="#ffe27b" stroke-width="16.2" stroke-linecap="round"/><path d="M849.9 291.8 L882.4 327.9" stroke="#ffe27b" stroke-width="16.2" stroke-linecap="round"/><path d="M782.1 315.8 L779.5 364.4" stroke="#ffe27b" stroke-width="16.2" stroke-linecap="round"/><path d="M717.2 284.9 L681.1 317.4" stroke="#ffe27b" stroke-width="16.2" stroke-linecap="round"/><path d="M693.2 217.1 L644.6 214.5" stroke="#ffe27b" stroke-width="16.2" stroke-linecap="round"/><path d="M724.1 152.2 L691.6 116.1" stroke="#ffe27b" stroke-width="16.2" stroke-linecap="round"/><path d="M791.9 128.2 L794.5 79.6" stroke="#ffe27b" stroke-width="16.2" stroke-linecap="round"/><path d="M856.8 159.1 L892.9 126.6" stroke="#ffe27b" stroke-width="16.2" stroke-linecap="round"/>
+        <circle cx="787.0" cy="222.0" r="68.0" fill="#ff8b5c" class="thin"/>
+        <circle cx="816.2" cy="196.1" r="55.1" fill="#201a20" opacity=".5"/>
+      </g></g><g transform="rotate(-12.0 509.0 352.0)">
+      <g opacity=".86">
+        <path d="M509.0 279.5 C459.9 345.0 468.1 391.8 509.0 401.1 C553.5 389.4 553.5 345.0 509.0 279.5Z" fill="#ffe27b" class="thin"/>
+        <path d="M432.9 415.2 C476.2 392.9 539.4 436.2 588.6 408.2" fill="none" stroke="#ffe27b" stroke-width="15.2" stroke-linecap="round"/>
+      </g></g><g transform="rotate(12.0 1083.0 414.0)">
+      <g transform="rotate(-3 1083.0 414.0)" opacity=".88">
+        <path d="M1106.0 273.0 L1007.6 417.3 L1069.9 410.7 L1037.1 555.0 L1168.3 384.5 L1096.1 397.6Z" fill="#ffe27b" class="thin"/>
+        <path d="M961.6 499.3 L1201.1 338.6" stroke="#fff8df" stroke-width="18.0" stroke-linecap="round" opacity=".62"/>
+      </g></g><g transform="rotate(19.0 367.0 646.0)">
+      <g opacity=".86">
+        <path d="M367.0 572.2 C317.0 638.9 325.4 686.5 367.0 696.0 C412.2 684.1 412.2 638.9 367.0 572.2Z" fill="#111111" class="thin"/>
+        <path d="M289.6 710.3 C333.7 687.6 397.9 731.7 447.9 703.1" fill="none" stroke="#ffe27b" stroke-width="15.5" stroke-linecap="round"/>
+      </g></g><g transform="rotate(-22.0 1249.0 626.0)">
+      <g transform="rotate(-1 1249.0 626.0)" opacity=".88">
+        <path d="M1272.2 483.2 L1172.6 629.3 L1235.7 622.7 L1202.5 768.8 L1335.3 596.1 L1262.3 609.4Z" fill="#fff8df" class="thin"/>
+        <path d="M1126.2 712.3 L1368.5 549.6" stroke="#fff8df" stroke-width="18.3" stroke-linecap="round" opacity=".62"/>
+      </g></g><g transform="rotate(7.0 659.0 764.0)">
+      <g opacity=".86">
+        <path d="M559.8 824.5 C620.3 710.8 678.4 814.8 753.4 720.4" fill="none" stroke="#ff8b5c" stroke-width="21.8" stroke-linecap="round"/>
+        <path d="M753.4 720.4 L680.8 718.0 M753.4 720.4 L726.8 783.4" fill="none" stroke="#ff8b5c" stroke-width="21.8" stroke-linecap="round"/>
+        <circle cx="617.9" cy="759.2" r="19.4" fill="#fff8df" class="thin"/>
+      </g></g><g transform="rotate(9.0 981.0 826.0)">
+      <g opacity=".78">
+        <polygon points="1049.8,874.2 948.1,933.6 898.7,827.4 944.9,721.2 1045.4,777.5" fill="#ffe27b" class="thin"/>
+        <circle cx="981.0" cy="826.0" r="23.5" fill="#ffe27b"/>
+      </g></g>
+      <path d="M581.5 587.0 L644.5 587.0" stroke="#ffe27b" stroke-width="8" stroke-linecap="round" opacity="0.18" transform="rotate(29 613.0 587.0)"/>
+      <path d="M998.0 477.0 L1080.0 477.0" stroke="#fff8df" stroke-width="8" stroke-linecap="round" opacity="0.23" transform="rotate(60 1039.0 477.0)"/>
+      <path d="M1444.5 367.0 L1485.5 367.0" stroke="#ffe27b" stroke-width="8" stroke-linecap="round" opacity="0.28" transform="rotate(91 1465.0 367.0)"/>
+      <path d="M501.0 257.0 L561.0 257.0" stroke="#fff8df" stroke-width="8" stroke-linecap="round" opacity="0.33" transform="rotate(122 531.0 257.0)"/>
+      <path d="M917.5 147.0 L996.5 147.0" stroke="#ffe27b" stroke-width="8" stroke-linecap="round" opacity="0.38" transform="rotate(153 957.0 147.0)"/>
+      <path d="M1364.0 797.0 L1402.0 797.0" stroke="#fff8df" stroke-width="8" stroke-linecap="round" opacity="0.18" transform="rotate(4 1383.0 797.0)"/>
+      <path d="M420.5 687.0 L477.5 687.0" stroke="#ffe27b" stroke-width="8" stroke-linecap="round" opacity="0.23" transform="rotate(35 449.0 687.0)"/>
+      <path d="M837.0 577.0 L913.0 577.0" stroke="#fff8df" stroke-width="8" stroke-linecap="round" opacity="0.28" transform="rotate(66 875.0 577.0)"/>
+      <path d="M1283.5 467.0 L1318.5 467.0" stroke="#ffe27b" stroke-width="8" stroke-linecap="round" opacity="0.33" transform="rotate(97 1301.0 467.0)"/>
+      <path d="M340.0 357.0 L394.0 357.0" stroke="#fff8df" stroke-width="8" stroke-linecap="round" opacity="0.38" transform="rotate(128 367.0 357.0)"/>
+      <path d="M756.5 247.0 L829.5 247.0" stroke="#ffe27b" stroke-width="8" stroke-linecap="round" opacity="0.18" transform="rotate(159 793.0 247.0)"/>
+      <path d="M1173.0 137.0 L1265.0 137.0" stroke="#fff8df" stroke-width="8" stroke-linecap="round" opacity="0.23" transform="rotate(10 1219.0 137.0)"/>
     </g>
   </g>
   <g id="semantic-layer-icons" filter="url(#posterShadow)">

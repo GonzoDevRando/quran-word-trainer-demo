@@ -100,6 +100,40 @@
       padding: 6px 9px;
       direction: ltr;
     }
+    .cardActions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 4px;
+      direction: ltr;
+    }
+    .soundBtn, .exploreBtn {
+      min-height: 42px;
+      border: 1px solid rgba(23, 33, 26, .16);
+      border-radius: 999px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background: #17211a;
+      color: #fff8df;
+      font-family: "Avenir Next", sans-serif;
+      font-size: .82rem;
+      font-weight: 950;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .16s ease, background .16s ease, box-shadow .16s ease;
+      box-shadow: 0 10px 24px rgba(23, 33, 26, .12);
+    }
+    .soundBtn {
+      background: #f4d35e;
+      color: #33270b;
+    }
+    .soundBtn:hover, .exploreBtn:hover, .soundBtn:focus-visible, .exploreBtn:focus-visible {
+      transform: translateY(-1px);
+      box-shadow: 0 16px 34px rgba(23, 33, 26, .18);
+      outline: none;
+    }
+    .soundBtn:active, .exploreBtn:active { transform: translateY(1px); }
     @media (max-width: 720px) {
       .hero { grid-template-columns: 1fr; }
       .shell { padding-inline: 12px; }
@@ -128,6 +162,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ب ر . ر ب">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-001-b-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -137,6 +175,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر م . م ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-002-m-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -146,6 +188,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ل م . م ل">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-003-l-m.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -155,6 +201,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ف . ف ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-004-f-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -164,6 +214,10 @@
           <div class="gesture">حركة، مسار، رجوع، اتباع</div>
           <div class="field">الحركة والمسار</div>
           <div class="pill">C04_MOVEMENT_PATH</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ع . ع ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-005-e-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -173,6 +227,10 @@
           <div class="gesture">موضع، ارض، ماء، عبور</div>
           <div class="field">المكان والارض والماء</div>
           <div class="pill">C01_PLACE_EARTH_WATER</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ب ل . ل ب">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-006-b-l.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -182,6 +240,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="د ر . ر د">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-007-d-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -191,6 +253,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ع ل . ل ع">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-008-e-l.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -200,6 +266,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني، علامة لفظية</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ق . ق ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-009-q-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -209,6 +279,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ا ر . ر ا">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-010-a-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -218,6 +292,10 @@
           <div class="gesture">موضع، ارض، ماء، عبور، علامة لفظية</div>
           <div class="field">المكان والارض والماء</div>
           <div class="pill">C01_PLACE_EARTH_WATER</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج ر . ر ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-011-j-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -227,6 +305,10 @@
           <div class="gesture">موضع، ارض، ماء، عبور</div>
           <div class="field">المكان والارض والماء</div>
           <div class="pill">C01_PLACE_EARTH_WATER</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="س م . م س">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-012-m-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -236,6 +318,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ق ل . ل ق">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-013-l-q.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -245,6 +331,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ن . ن ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-014-n-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -254,6 +344,10 @@
           <div class="gesture">اثر، ضرب، قطع، فصل بالقوة</div>
           <div class="field">القوة والقطع والضرب</div>
           <div class="pill">C05_FORCE_CUT_BREAK</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر س . س ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-015-r-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -263,6 +357,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ح ل . ل ح">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-016-h-l.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -272,6 +370,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ه . ه ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-017-h-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -281,6 +383,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ح ر . ر ح">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-018-h-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -290,6 +396,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ش . ش ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-019-r-sh.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -299,6 +409,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي، علامة لفظية</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ع ق . ق ع">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-020-e-q.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -308,6 +422,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ق م . م ق">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-021-m-q.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -317,6 +435,10 @@
           <div class="gesture">موضع، ارض، ماء، عبور</div>
           <div class="field">المكان والارض والماء</div>
           <div class="pill">C01_PLACE_EARTH_WATER</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج ل . ل ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-022-j-l.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -326,6 +448,10 @@
           <div class="gesture">انسان، علاقة، خدمة، دور اجتماعي/ديني</div>
           <div class="field">الانسان والاجتماع والدين</div>
           <div class="pill">C09_HUMAN_SOCIAL_SACRED</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ك . ك ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-023-k-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -335,6 +461,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="س ل . ل س">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-024-l-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -344,6 +474,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ب ق . ق ب">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-025-b-q.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -353,6 +487,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ب س . س ب">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-026-b-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -362,6 +500,10 @@
           <div class="gesture">انسان، علاقة، خدمة، دور اجتماعي/ديني</div>
           <div class="field">الانسان والاجتماع والدين</div>
           <div class="pill">C09_HUMAN_SOCIAL_SACRED</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ل ه . ه ل">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-027-h-l.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -371,6 +513,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ص . ص ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-028-s-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -380,6 +526,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="د ل . ل د">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-029-d-l.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -389,6 +539,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ي . ي ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-030-r-y.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -398,6 +552,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر غ . غ ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-031-gh-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -407,6 +565,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ض . ض ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-032-d-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -416,6 +578,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ث ر . ر ث">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-033-r-th.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -425,6 +591,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ح س . س ح">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-034-h-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -434,6 +604,10 @@
           <div class="gesture">موضع، ارض، ماء، عبور</div>
           <div class="field">المكان والارض والماء</div>
           <div class="pill">C01_PLACE_EARTH_WATER</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ب ث . ث ب">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-035-b-th.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -443,6 +617,10 @@
           <div class="gesture">حياة حيوانية، ركوب، حمل، معاش</div>
           <div class="field">الحيوان والركوب</div>
           <div class="pill">C02_ANIMAL_RIDING</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ل . ل ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-036-l-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -452,6 +630,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ف ن . ن ف">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-037-f-n.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -461,6 +643,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ع ن . ن ع">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-038-e-n.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -470,6 +656,10 @@
           <div class="gesture">حركة، مسار، رجوع، اتباع</div>
           <div class="field">الحركة والمسار</div>
           <div class="pill">C04_MOVEMENT_PATH</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ع م . م ع">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-039-e-m.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -479,6 +669,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="د م . م د">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-040-d-m.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -488,6 +682,10 @@
           <div class="gesture">انسان، علاقة، خدمة، دور اجتماعي/ديني</div>
           <div class="field">الانسان والاجتماع والدين</div>
           <div class="pill">C09_HUMAN_SOCIAL_SACRED</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج ن . ن ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-041-j-n.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -497,6 +695,10 @@
           <div class="gesture">انسان، علاقة، خدمة، دور اجتماعي/ديني</div>
           <div class="field">الانسان والاجتماع والدين</div>
           <div class="pill">C09_HUMAN_SOCIAL_SACRED</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ب ع . ع ب">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-042-e-b.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -506,6 +708,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني، علامة لفظية</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ح م . م ح">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-043-h-m.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -515,6 +721,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="س ن . ن س">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-044-n-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -524,6 +734,10 @@
           <div class="gesture">صوت، نطق، تسمية، علامة</div>
           <div class="field">الصوت والكلام والاسم</div>
           <div class="pill">C06_SOUND_SPEECH_NAME</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="م ه . ه م">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-045-h-m.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -533,6 +747,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج م . م ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-046-j-m.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -542,6 +760,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر و . و ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-047-r-w.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -551,6 +773,10 @@
           <div class="gesture">اثر، ضرب، قطع، فصل بالقوة</div>
           <div class="field">القوة والقطع والضرب</div>
           <div class="pill">C05_FORCE_CUT_BREAK</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="د ع . ع د">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-048-e-d.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -560,6 +786,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ر ز . ز ر">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-049-r-z.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -569,6 +799,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ف ق . ق ف">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-050-f-q.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -578,6 +812,10 @@
           <div class="gesture">صوت، نطق، تسمية، علامة</div>
           <div class="field">الصوت والكلام والاسم</div>
           <div class="pill">C06_SOUND_SPEECH_NAME</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="خ ر . ر خ">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-051-kh-r.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -587,6 +825,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="د س . س د">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-052-d-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -596,6 +838,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="س ع . ع س">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-053-e-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -605,6 +851,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ب ح . ح ب">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-054-h-b.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -614,6 +864,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج ع . ع ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-055-e-j.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -623,6 +877,10 @@
           <div class="gesture">اثر، ضرب، قطع، فصل بالقوة</div>
           <div class="field">القوة والقطع والضرب</div>
           <div class="pill">C05_FORCE_CUT_BREAK</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ص م . م ص">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-056-s-m.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -632,6 +890,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ح د . د ح">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-057-h-d.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -641,6 +903,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج د . د ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-058-d-j.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -650,6 +916,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ص ع . ع ص">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-059-e-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -659,6 +929,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال، نقص/احتياج</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج ح . ح ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-060-h-j.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -668,6 +942,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني، علامة لفظية</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج ه . ه ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-061-h-j.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -677,6 +955,10 @@
           <div class="gesture">حياة حيوانية، ركوب، حمل، معاش</div>
           <div class="field">الحيوان والركوب</div>
           <div class="pill">C02_ANIMAL_RIDING</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ع ي . ي ع">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-062-e-y.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -686,6 +968,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ح ص . ص ح">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-063-h-s.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -695,6 +981,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ب ض . ض ب">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-064-d-b.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -704,6 +994,10 @@
           <div class="gesture">اثر، ضرب، قطع، فصل بالقوة</div>
           <div class="field">القوة والقطع والضرب</div>
           <div class="pill">C05_FORCE_CUT_BREAK</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ط ق . ق ط">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-065-t-q.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -713,6 +1007,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="د ص . ص د">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-066-s-d.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -722,6 +1020,10 @@
           <div class="gesture">دورة، نور، حرارة/لون، تغير زمني</div>
           <div class="field">الزمن والنور واللون</div>
           <div class="pill">C07_TIME_CYCLE_LIGHT</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ح ض . ض ح">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-067-d-h.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -731,6 +1033,10 @@
           <div class="gesture">صوت، نطق، تسمية، علامة</div>
           <div class="field">الصوت والكلام والاسم</div>
           <div class="pill">C06_SOUND_SPEECH_NAME</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ق ق">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-068-q-q.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -740,6 +1046,10 @@
           <div class="gesture">موضع، ارض، ماء، عبور، علامة لفظية</div>
           <div class="field">المكان والارض والماء</div>
           <div class="pill">C01_PLACE_EARTH_WATER</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ج ج">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-069-j-j.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -749,6 +1059,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، زيادة/رزق</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="غ ي . ي غ">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-070-gh-y.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -758,6 +1072,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة، علامة لفظية</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="خ ض . ض خ">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-071-d-kh.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -767,6 +1085,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ف ف">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-072-f-f.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -776,6 +1098,10 @@
           <div class="gesture">صوت، نطق، تسمية، علامة</div>
           <div class="field">الصوت والكلام والاسم</div>
           <div class="pill">C06_SOUND_SPEECH_NAME</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ع ع">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-073-e-e.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -785,6 +1111,10 @@
           <div class="gesture">بدن، ملامسة، حس، اثر داخلي/خارجي</div>
           <div class="field">البدن والحس</div>
           <div class="pill">C03_BODY_PERCEPTION</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ظ ف . ف ظ">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-074-z-f.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -794,6 +1124,10 @@
           <div class="gesture">نمو، اتساع، غذاء، مادة نافعة، رزق محسوس، تغذية مثمرة</div>
           <div class="field">النبات والطعام والمادة</div>
           <div class="pill">C08_GROWTH_FOOD_MATERIAL</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ض ض">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-075-d-d.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -803,6 +1137,10 @@
           <div class="gesture">صوت، نطق، تسمية، علامة</div>
           <div class="field">الصوت والكلام والاسم</div>
           <div class="pill">C06_SOUND_SPEECH_NAME</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="غ ق . ق غ">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-076-gh-q.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -812,6 +1150,10 @@
           <div class="gesture">قدر، قيمة، زيادة/نقص، حال</div>
           <div class="field">القدر والقيمة والحال</div>
           <div class="pill">C10_QUANTITY_VALUE_STATE</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ش س">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-077-s-sh.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -821,6 +1163,10 @@
           <div class="gesture">دد: ارض، غدة، داد، ابل</div>
           <div class="field">القوة والقطع والضرب</div>
           <div class="pill">C05_FORCE_CUT_BREAK</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="د د . د د">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-078-d-d-supplement.html">Explore</a>
+          </div>
         </div>
       </article>
       <article class="card">
@@ -830,9 +1176,29 @@
           <div class="gesture">ثج؛جث: ماء، ارض، جثي، جثوة</div>
           <div class="field">المكان والارض والماء</div>
           <div class="pill">C01_PLACE_EARTH_WATER</div>
+          <div class="cardActions">
+            <button class="soundBtn" type="button" data-sound="ث ج . ج ث">Hear sound</button>
+            <a class="exploreBtn" href="memes/meme-079-j-th-supplement.html">Explore</a>
+          </div>
         </div>
       </article>
     </section>
   </main>
+  <script>
+    function speakArabicSound(text) {
+      if (!("speechSynthesis" in window) || !text) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "ar-SA";
+      utterance.rate = 0.62;
+      utterance.pitch = 0.92;
+      window.speechSynthesis.speak(utterance);
+    }
+    document.addEventListener("click", event => {
+      const button = event.target.closest("[data-sound]");
+      if (!button) return;
+      speakArabicSound(button.dataset.sound || "");
+    });
+  </script>
 </body>
 </html>
